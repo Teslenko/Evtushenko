@@ -1,0 +1,18 @@
+<h1>Parser#index</h1>
+<p>Find me in app/views/parser/index.html.erb</p>
+
+<p>Пример: http://aim-online.wen.ru/aim/baza.txt </p>
+
+<%= form_tag("/parser/index", method: "get") do %>
+  <%= label_tag(:url, "Введите ссылку для поиска email:") %>
+  <%= text_field_tag(:url) %>
+  <%= submit_tag("Search") %>
+<% end %>
+
+
+<h2>Список найденных имейлов:</h2>
+<ol>
+  <% @doc.each do |text| %>
+    <li><%= text %></li> <br>
+  <% end %>
+</ol>

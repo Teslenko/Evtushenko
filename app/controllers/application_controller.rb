@@ -1,8 +1,9 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
-
+  # config.filter_parameters << :password
   # before_action :set_locale
 
+  include SessionsHelper
 
   def after_sign_in_path_for(resource)
     # if current_user.has_attribute?(:admin)

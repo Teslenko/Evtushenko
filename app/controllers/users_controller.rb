@@ -5,7 +5,6 @@ class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   def index
-
     @users = User.all
   end
 
@@ -14,14 +13,17 @@ class UsersController < ApplicationController
   end
 
   def show
-    # @user = User.find(params[:id])
+    @user = User.find(params[:id])
     # debugger
   end
 
   def create
     @user = User.create(user_params)
     if @user.save
-      redirect_to root_url, :notice => "Signed up!"
+      sign_in @user
+      flash[:success] = "Welcome to the Sample App!"
+      redirect_to @user
+      # redirect_to root_url, :notice => "Signed up!"
     else
       render "new"
     end
@@ -34,7 +36,7 @@ class UsersController < ApplicationController
   private
 
   def user_params
-
-    params.require(:user).permit(:candidates)
+    params.require(:user).permit(:candidates, :name, :email, :password,
+                                 :password_confirmation)
   end
 end

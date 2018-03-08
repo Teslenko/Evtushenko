@@ -3,6 +3,7 @@ class Candidate < ApplicationRecord
   mount_uploader :image, ImageUploader
   validates_presence_of :image # это чтобы он проверял наличие загружененой фотки, без которой не было возмонжости сохранить ю
 
+
   validates_processing_of :image
   validate :image_size_validation
 

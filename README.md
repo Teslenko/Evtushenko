@@ -27,13 +27,13 @@ Things you may want to cover:
 
 *git commit -m "first commit" 
 
-*git remote add origin https://github.com/Teslenko/RecruitingTime 
+*git remote add origin https://github.com/Teslenko/Dmitry_Arabadzhy
 
 *git push -u origin master
 
 -------------
 
-*heroku git:remote -a recruitingtimes
+*heroku git:remote -a dmitriyarabadzhy
 
 *git add .
 
@@ -43,9 +43,36 @@ Things you may want to cover:
 
 --------------------
 
+heroku pg:psql 
+
+SELECT * FROM candidates;
+
+UPDATE candidates SET name = 'Ремень' WHERE ID = 1;
+
+DELETE FROM candidates WHERE ID = 1;
+
+--------------------
+
+Стереть БД, но потом снова надо создать
+
+heroku pg:reset DATABASE - стереть БД, но потом снова надо создать
+
+heroku addons:create heroku-postgresql:hobby-dev
+
+heroku run rails db:migrate
+
+--------------------
+
 rake db:reset 
 
 rake db:migrate
+
+--------------------
+If "git pull..."
+
+git clean  -d  -fx "Commit"
+
+git push --force
 
 --------------------
 
@@ -56,6 +83,16 @@ If you use the command: git fetch --all and git reset --hard origin/master -  it
 --------------------
 
 http://aakinshin.net/ru/blog/post/git-log/ - View the Git Logs
+
+--------------------
+
+Changing a remote's URL:
+
+git remote -v
+
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+
+git remote -v
 
 --------------------
 
@@ -149,3 +186,4 @@ http://aakinshin.net/ru/blog/post/git-log/ - View the Git Logs
 
 .timer ON|OFF          Turn the CPU timer measurement on or off
 
+# Dmitry_Arabadzhy

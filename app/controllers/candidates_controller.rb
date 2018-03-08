@@ -5,6 +5,7 @@ class CandidatesController < ApplicationController
   # GET /candidates.json
   def index
     @candidates = Candidate.all
+    # @candidates = ParserHelper.all
   end
 
   # GET /candidates/1

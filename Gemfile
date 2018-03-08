@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# ruby '2.4.3'
 ruby '2.4.1'
 # ruby '2.4.2'
 
@@ -46,6 +47,16 @@ gem 'devise'
 
 gem 'launchy'
 
+gem 'nokogiri'
+
+gem 'less-rails'
+
+gem 'therubyracer'
+
+gem 'selenium-webdriver', '~> 3.8'
+
+gem "watir", "~> 6.10"
+
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
@@ -67,6 +78,7 @@ group :development do
 
   gem 'spring-watcher-listen', '~> 2.0.0'
 
+  gem 'byebug'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
