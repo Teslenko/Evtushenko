@@ -22,14 +22,14 @@ class SearchController < ApplicationController
   def search(&block)
 
     if params[:q]
-      @candidate= yield if block_given?
+      @product= yield if block_given?
 
       respond_to do |format|
         format.html # resources.html.erb
-        format.json { render json: @candidate}
+        format.json { render json: @product}
       end
     else
-      redirect_to root_url, :notice => 'No search query was specified.'
+      redirect_to root_url, :notice => 'Запрос поиска не задан'
     end
   end
 end

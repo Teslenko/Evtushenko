@@ -61,8 +61,6 @@ class CandidatesController < ApplicationController
     end
   end
 
-  # PATCH/PUT /candidates/1
-  # PATCH/PUT /candidates/1.json
   def update
     respond_to do |format|
       if @candidate.update(candidate_params)

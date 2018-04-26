@@ -1,7 +1,7 @@
 class StaticPagesController < ApplicationController
   def home
 
-    @candidates = Candidate.all
+    @products = Product.all
 
 
   end

@@ -1,17 +1,16 @@
 Rails.application.routes.draw do
 
 
+  resources :products
   get 'parser/index'
 
-  devise_for :admins
-  devise_for :users
-  resources :users
 
-  resources :sessions, only: [:new, :create, :destroy]
-  root  'static_pages#home'
-  match '/signup',  to: 'users#new',            via: 'get'
-  match '/signin',  to: 'sessions#new',         via: 'get'
-  match '/signout', to: 'sessions#destroy',     via: 'delete'
+
+  # resources :sessions, only: [:new, :create, :destroy]
+  # root  'static_pages#home'
+  # match '/signup',  to: 'users#new',            via: 'get'
+  # match '/signin',  to: 'sessions#new',         via: 'get'
+  # match '/signout', to: 'sessions#destroy',     via: 'delete'
 
   # get 'users/profile'
 
@@ -25,16 +24,16 @@ Rails.application.routes.draw do
   get '/contact'=> 'static_pages#contact'
   get '/about' => 'static_pages#about'
 
-  get :search, controller: :candidates
-  get :autocomplete, controller: :candidates
+  get :search, controller: :products
+  get :autocomplete, controller: :products
 
-  # root  'static_pages#home'
+  root  'static_pages#home'
 
 
 
-  resources :candidates
+  resources :products
 
-  root  'candidates#index'
+  # root  'product#index'
 
 
 end

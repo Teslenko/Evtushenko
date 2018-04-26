@@ -1,12 +1,12 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="navbar-inner">
-    <div class="Logoimage"><%= image_tag("know_your_third-party.png", size: "150x150", :alt => "rss feed", id:'booksget_logo') %></div><!--тут ссылка на картинку-->
+    <div class="Logoimage"><%= link_to(image_tag("know_your_third-party.png", size: "150x150", :alt => "rss feed", id:'booksget_logo'), root_path) %></div><!--тут ссылка на картинку-->
     <div class="container">
-      <div class="p1"> <%= link_to "App", candidates_url, id: "logo" %></div>
+      <div class="p1"> <%= link_to "App", products_url, id: "logo" %></div>
       <nav class="nav pull-right buttons">
         <p>
          <%= link_to "Home",    home_path %>
-         <%#= link_to "Help",    help_path %>
+         <%= link_to "Help",    help_path %>
 
 
           <%# if signed_in? %>

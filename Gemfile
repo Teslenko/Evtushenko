@@ -39,6 +39,8 @@ gem 'mini_magick', '~> 4.3'
 
 gem 'image_magick'
 
+
+
 gem 'bootstrap-sass', ' 3.3.7'
 
 gem 'ransack'

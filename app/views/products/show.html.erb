@@ -1,0 +1,25 @@
+<!--<p id="notice"><%#= notice %></p>-->
+
+<title>Product Name<%= @product.name %> </title>
+<p>
+  <strong></strong>
+  <%= image_tag @product.image.thumb.url %>
+</p>
+
+<p>
+  <strong>Наименование:</strong>
+  <%= @product.name %>
+</p>
+
+<p>
+  <strong>Описание:</strong>
+  <%= @product.description %>
+</p>
+<p>The Candidate <%= @product.name %> </p>
+
+<p>
+  <%= link_to 'Удалить', @product, method: :delete, data: { confirm: 'Вы уверенны, что хотите удалить?' } %>
+</p>
+
+<%= link_to 'Редактировать', edit_product_path(@product) %> |
+<%= link_to 'Назад', products_path %>

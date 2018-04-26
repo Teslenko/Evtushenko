@@ -3,28 +3,239 @@
 <html>
 <head>
   <title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></title>
+ <!--/////////////////////////////////-->
+
+
+  <style>
+
+      #slider {
+          width: 800px;
+          height: 150px;
+          overflow: hidden;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      .slide {
+          width: 800px;
+          height: 150px;
+          float: left;
+          position: relative;
+      }
+
+
+
+#slide-holder {
+          /*// wide enough to fit all the slides*/
+          width: 400%;
+          position: relative;
+          left: 0;
+          will-change: transform;
+          animation: scroller 10s infinite;
+      }
+
+      /*// need a step for each slide*/
+      @keyframes scroller {
+          0% { transform: translateX(0); }
+          33% { transform: translateX(-800px); }
+          66% { transform: translateX(-1600px); }
+          100% { transform: translateX(0); }
+      }
+
+      /*/////////////////////////*/
+
+      .tabs {
+        position: relative;
+        height: 400px;
+        display: block;
+        margin: 1em auto 0;
+        width: 800px;
+      }
+
+      .tab {
+        float: left;
+      }
+      .tab label {
+        cursor: pointer;
+        background: #c69;
+        font-size: 1.2em;
+        border-radius: 8px 8px 0 0;
+        padding: .5em 1em;
+      }
+      .tab [type=radio] {
+        position: absolute;
+        clip: rect(0, 0, 0, 0);
+      }
+      .tab [type=radio]:focus + label {
+        outline: 2px dotted #000;
+      }
+      .tab [type=radio]:checked ~ label {
+        background: #c99;
+      }
+      .tab [type=radio]:checked ~ label ~ .content {
+        z-index: 1;
+      }
+
+      .content {
+        background: #fafcf8;
+        border: 1px solid #c69;
+        border-radius: 0 5px 5px;
+        padding: .5em 4em;
+        position: absolute;
+        width: 100%;
+        top: 2em;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+
+      body {
+        font-family: monospace;
+        font-size: 1.1em;
+      }
+
+      /*<!--/////////////////////////////////-->*/
+
+      .floating-box {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+        border: 3px solid #73AD21;
+
+
+      }
+      /*<!--/////////////////////////////////-->*/
+      /* Код увеличителя начинается здесь */
+      /* Если ваше изображение не связано ссылкой с другой страницей, оставьте ссылку в виде <a href="#nogo">
+      Иначе увеличительне будет работать в IE6 */
+
+      .ienlarger {
+        float: left;
+        clear: none; /* Можно установить left или right по необходимости */
+        padding-bottom: 5px; /* Расстояние между миниатюрами. Лучше не трогать данное поле */
+        padding-right: 5px; /* Расстояние между миниатюрами и окружающим текстом */
+      }
+
+      .ienlarger a {
+        display:block;
+        text-decoration: none;
+        /* Если добавить правило cursor:default;, то отключится курсор в виде руки */
+      }
+
+      .ienlarger a:hover{ /* Не надо изменять тип позиционирования */
+        position:relative;
+      }
+
+      .ienlarger span img {
+        border: 1px solid #FFFFFF; /* Добавляем рамку вокруг изображения */
+        margin-bottom: 8px; /* /Сдвигаем текст вниз от изображения */
+      }
+
+      .ienlarger a span {  /* Для большого изображения и названия */
+        position: absolute;
+        display:none;
+        color: #FFCC00; /* Текст названия */
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px; /* Размер шрифта названия */
+        background-color: #000000;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 13px;
+        padding-left: 10px;
+      }
+
+      .ienlarger img { /* Для IE, чтобы не было рамки вокруг ссылки */
+        border-width: 0;
+      }
+
+      .ienlarger a:hover span {
+        display:block;
+        top: 10px; /* Большое изображение выскакивает вверх на 50px от миниатюры */
+        left: 90px; /* Большое изображение выскакивает влево на 90px от миниатюры */
+        z-index: 100;
+
+        /* Если добавить правило cursor:default;, то отключится курсор в виде руки на большом изображении */
+      }
+
+      .resize_thumb {
+        width: auto; /* Вводим нужный размер миниатюры здесь */
+        height : auto;
+
+      }
+
+
+      /*<!--/////////////////////////////////-->*/
+
+  </style>
+  <!--/////////////////////////////////-->
 </head>
 <body>
 
+
+
+
 <% provide(:title, 'Home') %>
-<h1>Sample App</h1>
+<h1>Production Arabadzhy</h1>
+
+<div id="slider">
+  <div id="slide-holder">
+    <div class="slide"><b>RubyMine has detected that some of the gems required for 'RecruitingTime' are not installed.</b>></div>
+    <div class="slide"><b>RubyMine has detected that some of the gems required for 'RecruitingTime' are not installed.</b></div>
+    <div class="slide"><b>RubyMine has detected that some of the gems required for 'RecruitingTime' are not installed.</b></div>
+  </div>
+</div>
+<!--/////////////////////////////////-->
+<% @products.each do |product| %>
+<div class="thumb-wrapper">
 
 
-<div class="navbar-nav pull-xs-rigth">
-<!--Show Home Page-->
-  <button style="background-position:center; position: center", class="favth-btn">
-    <%= link_to 'Show Home Page', candidates_path, class: "btn btn-mini btn-warning", type: "button"%>
-  </button>
+</div>
+
+  <div class="ienlarger">
+    <a>
+
+      <%= image_tag product.image.thumb.url, class: "resize_thumb"%>
+
+      <span>
+     <%= image_tag product.image.url%>
+        <br>
+        <%= product.name %>
+      </span>
+    </a>
+  </div>
+  <br style="clear:left" />
+<% end %>
+<%# end %>
+
+
 <br><br>
 
+<div class="1 navbar-nav pull-xs-rigth">
+<!--Show Home Page-->
+  <button style="background-position:center; position: center", class="with-delay">
+    <%= link_to 'Adminka', products_path, class: "btn btn-mini btn-warning", type: "button"%>
+  </button>
 
 
-
-<p>
-  This is the home page for the
-  <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
-  sample application.
-</p>
 </div>
+
+
+<!--<div class="thumb-wrapper" style="text-align: right">-->
+  <!--<a href="#img1">-->
+    <!--<img src="https://i.pinimg.com/originals/6d/63/bd/6d63bd23ad5e60f5a9ccbc60ed2a25a7.jpg" class="thumbnail">-->
+  <!--</a>-->
+<!--</div>-->
+
+<!--<a href="#" class="lightbox" id="img1">-->
+  <!--<img src="https://i.pinimg.com/originals/6d/63/bd/6d63bd23ad5e60f5a9ccbc60ed2a25a7.jpg">-->
+<!--</a>-->
+
+
+
 </body>
 </html>

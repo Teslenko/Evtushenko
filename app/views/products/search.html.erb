@@ -20,7 +20,7 @@
     }
 
     h3 {
-      font-family: Arial, Helvetica, Verdana, sans-serif; /* Гарнитура шрифта */
+        font-family: Arial, Helvetica, Verdana, sans-serif; /* Гарнитура шрифта */
       font-size: 150%; /* Размер текста */
       font-weight: lighter; /* Светлое начертание */
     }
@@ -40,7 +40,7 @@
 
   <% else %>
     <h1>
-      <%= t('search.please_type_something') %>
+      <%= t('/') %>
       <!-- "Please, type anything" -->
     </h1>
   <% end %>
@@ -54,8 +54,8 @@
       <tr><div class="container" >
         <div class="row">
           <th></th>
-          <th style="text-align: center; " >Name Candidate</th>
-          <th style="text-align: center">Position</th>
+          <th style="text-align: center; " >Наименование</th>
+          <th style="text-align: center">Описание</th>
           <!--<th style="text-align: center">Company</th>-->
           <th style="text-align: center"></th><br></div></div>
       </tr>
@@ -63,20 +63,20 @@
     </thead>
 
     <tbody>
-    <% if @candidates.present? %>
+    <% if @products.present? %>
       <h1>
-        Lits Finded Candidates
+        Результаты поиска
       </h1>
     <% else %>
       <tr> <h3>
-        Nothing found by
+        Ничего не найдено
         "<%= params[:q] %>"
       </h3>
     <% end %>
-    <% @candidates.each do |candidate| %>
-      <td><%= image_tag candidate.image.thumb.url %></td>
-      <td class="Show" style="padding: 25px"><button class="favth-btn " ><%= link_to candidate.name, candidate, class: "btn btn-mini btn-primary", type: "button" %></button></td>
-      <td class="Show" style="padding: 25px"><button class="favth-btn"><%= link_to candidate.description, candidate, class: "btn btn-mini btn-primary", type: "button" %></button></td>
+    <% @products.each do |product| %>
+      <td><%= image_tag product.image.thumb.url %></td>
+      <td class="Show" style="padding: 25px"><button class="favth-btn " ><%= link_to product.name, product, class: "btn btn-mini btn-primary", type: "button" %></button></td>
+      <td class="Show" style="padding: 25px"><button class="favth-btn"><%= link_to product.description, product, class: "btn btn-mini btn-primary", type: "button" %></button></td>
       </tr>
     <% end %>
     </tbody>    <br>
@@ -88,6 +88,6 @@
 
   </table>
   <div class="ttt" style="padding: 10px">
-    <%= link_to 'Back', :back, class: 'btn btn-primary' %>
+    <%= link_to 'Назад', :back, class: 'btn btn-primary' %>
   </div></div>
 </body>

@@ -10,8 +10,8 @@ document.addEventListener("turbolinks:load", function(){
         },
         categories: [
             {
-                listLocation: "candidates",
-                header: "<strong>Names</strong>",
+                listLocation: "products",
+                header: "<strong>Наименование</strong>",
             }
 
         ], theme: "dark",
