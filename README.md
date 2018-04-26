@@ -1,25 +1,3 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
 
 *git init 
 
@@ -27,13 +5,13 @@ Things you may want to cover:
 
 *git commit -m "first commit" 
 
-*git remote add origin https://github.com/Teslenko/Dmitry_Arabadzhy
+*git remote add origin https://github.com/Teslenko/Evtushenko.git
 
 *git push -u origin master
 
 -------------
 
-*heroku git:remote -a dmitriyarabadzhy
+*heroku git:remote -a Evtushenko
 
 *git add .
 
@@ -186,4 +164,3 @@ git remote -v
 
 .timer ON|OFF          Turn the CPU timer measurement on or off
 
-# Dmitry_Arabadzhy
