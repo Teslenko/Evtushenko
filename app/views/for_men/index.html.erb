@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<h1>For Men</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @for_men.each do |for_man| %>
+      <tr>
+        <td><%= image_tag for_man.avatar.thumb.url %></td>
+        <td><%= for_man.name %></td>
+        <td><%= for_man.description %></td>
+        <td><%= link_to 'Show', for_man %></td>
+        <td><%= link_to 'Edit', edit_for_man_path(for_man) %></td>
+        <td><%= link_to 'Destroy', for_man, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New For Man', new_for_man_path %>

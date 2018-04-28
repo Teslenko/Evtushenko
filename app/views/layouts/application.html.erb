@@ -2,7 +2,7 @@
 <html>
   <head>
     <!--<title>TimeOfRecruiting</title>-->
-    <title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></title>
+    <title>Ievtushenko Production</title>
     <%= csrf_meta_tags %>
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -11,15 +11,7 @@
 
   </head>
   <!--##############################---Search--#############################################-->
-  <div class="container search_margin_top" style="padding-top: 25px">
-    <%#= label_tag(:q, "Search for:") %>
-    <%= form_with url: search_url, local: true, method: :get do |form| %>
-        <%= form.text_field :q, :size =>"40", placeholder: "Введите слово", data:{behavior: "autocomplete"}, class: "form-control width_of_search" %>
-        <div class="ttt" style="padding-top: 10px">
-          <%= form.button "Поиск", class: "btn btn-large btn-primary" %>
-        </div>
-    <% end %>
-  </div>
+
   <body>
 
   <p class="notice"><%= notice %></p>

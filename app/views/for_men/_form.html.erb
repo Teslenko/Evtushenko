@@ -1,0 +1,42 @@
+<%= form_with(model: for_man, local: true) do |form| %>
+  <% if for_man.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(for_man.errors.count, "error") %> prohibited this for_man from being saved:</h2>
+
+      <ul>
+      <% for_man.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+
+  <div class="actions">
+    <br>
+    <%= form.label :avatar, "Загрузить картинку"%><br>
+    <button class="favth-btn">
+      <%= form.file_field :avatar, class: "btn btn-large btn-primary" %>
+      <% if form.object.avatar? %>
+        <%= image_tag form.object.avatar.thumb.url %>
+
+        <%= form.label :remove_avatar %>
+        <%= form.check_box :remove_avatar %>
+      <% end %>
+    </button >
+  </div>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :for_man_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_field :description, id: :for_man_description %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit "✔" %>
+  </div>
+<% end %>

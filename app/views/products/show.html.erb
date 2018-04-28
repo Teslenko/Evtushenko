@@ -1,4 +1,4 @@
-<!--<p id="notice"><%#= notice %></p>-->
+<p id="notice"><%#= notice %></p>
 
 <title>Product Name<%= @product.name %> </title>
 <p>
@@ -15,7 +15,7 @@
   <strong>Описание:</strong>
   <%= @product.description %>
 </p>
-<p>The Candidate <%= @product.name %> </p>
+
 
 <p>
   <%= link_to 'Удалить', @product, method: :delete, data: { confirm: 'Вы уверенны, что хотите удалить?' } %>

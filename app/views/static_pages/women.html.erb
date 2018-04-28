@@ -1,0 +1,30 @@
+
+<h1>Женское</h1>
+<p>
+  На этой странице будут размещены Женское белье
+</p>
+
+<table>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th colspan="3"></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @for_women.each do |for_woman| %>
+    <tr>
+      <td><%= image_tag for_woman.womanavtr.thumb.url %></td>
+      <td><%= for_woman.name %></td>
+      <td><%= for_woman.description %></td>
+      <td><%= link_to 'Show', for_woman %></td>
+      <td><%= link_to 'Edit', edit_for_woman_path(for_woman) %></td>
+      <td><%= link_to 'Destroy', for_woman, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<br>

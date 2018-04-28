@@ -4345,7 +4345,7 @@ output {
 /* line 114, /usr/local/lib/ruby/gems/2.4.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_forms.scss */
 .form-control {
   display: block;
-  width: 100%;
+  width: 35%;
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;

@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Products</h1>
+<h1>Режим Редактирования Продукции</h1>
 
 <table>
   <thead>
@@ -13,6 +13,7 @@
   </thead>
 
   <tbody>
+
     <% @products.each do |product| %>
       <tr>
         <td><%= image_tag product.image.thumb.url %></td>
@@ -27,5 +28,6 @@
 </table>
 
 <br>
-
-<strong><%= link_to 'Создать', new_product_path %></strong>
+<div class="1 navbar-nav pull-xs-rigth">
+<strong><%= link_to 'Создать', new_product_path, class: "btn btn-mini btn-warning", type: "button" %></strong>
+  </div>

@@ -11,7 +11,17 @@ document.addEventListener("turbolinks:load", function(){
         categories: [
             {
                 listLocation: "products",
-                header: "<strong>Наименование</strong>",
+                header: "<strong style='color: #6a7fff'>Раздел Новостей</strong>",
+            },
+
+            {
+                listLocation: "for_man",
+                header: "<strong style='color: rgba(209,221,27,0.68)'>Раздел для Мужчин</strong>",
+            },
+
+            {
+                listLocation: "for_woman",
+                header: "<strong style='color: rgba(221,51,68,0.68)'>Раздел для Женщин</strong>",
             }
 
         ], theme: "dark",
@@ -28,3 +38,4 @@ document.addEventListener("turbolinks:load", function(){
     $input.easyAutocomplete(options)
 }
 );
+

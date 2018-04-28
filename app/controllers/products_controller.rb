@@ -24,19 +24,23 @@ class ProductsController < ApplicationController
   ######################################################################
   def search
     @products = Product.ransack(name_cont: params[:q]).result(distinct: true).limit(2)
+    @for_man = ForMan.ransack(name_cont: params[:q]).result(distinct: true).limit(2)
+    @for_woman = ForWoman.ransack(name_cont: params[:q]).result(distinct: true).limit(2)
 
     respond_to do |format|
-      format.html{}
-      format.json{}
+      format.html {}
+      format.json {}
     end
   end
   ######################################################################
   def autocomplete
 
     @products = Product.ransack(name_cont: params[:q]).result(distinct: true).limit(5)
+    @for_man = ForMan.ransack(name_cont: params[:q]).result(distinct: true).limit(5)
+    @for_woman = ForWoman.ransack(name_cont: params[:q]).result(distinct: true).limit(5)
 
     respond_to do |format|
-      format.html{}
+      format.html {}
       format.json {}
     end
   end

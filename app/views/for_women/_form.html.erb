@@ -1,0 +1,42 @@
+<%= form_with(model: for_woman, local: true) do |form| %>
+  <% if for_woman.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(for_woman.errors.count, "error") %> prohibited this for_woman from being saved:</h2>
+
+      <ul>
+      <% for_woman.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+
+  <div class="actions">
+    <br>
+    <%= form.label :womanavtr, "Загрузить картинку"%><br>
+    <button class="favth-btn">
+      <%= form.file_field :womanavtr, class: "btn btn-large btn-primary" %>
+      <% if form.object.womanavtr? %>
+        <%= image_tag form.object.womanavtr.thumb.url %>
+
+        <%= form.label :remove_womanavtr %>
+        <%= form.check_box :remove_womanavtr %>
+      <% end %>
+    </button >
+  </div>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :for_woman_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_field :description, id: :for_woman_description %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

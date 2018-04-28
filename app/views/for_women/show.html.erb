@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong></strong>
+  <%= image_tag @for_woman.womanavtr.thumb.url %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @for_woman.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @for_woman.description %>
+</p>
+
+<%= link_to 'Edit', edit_for_woman_path(@for_woman) %> |
+<%= link_to 'Back', for_women_path %>

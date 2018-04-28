@@ -1,45 +1,35 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="navbar-inner">
-    <div class="Logoimage"><%= link_to(image_tag("know_your_third-party.png", size: "150x150", :alt => "rss feed", id:'booksget_logo'), root_path) %></div><!--тут ссылка на картинку-->
+    <div class="Logoimage">
+      <%= link_to(image_tag("Logo_I.png", size: "150x150",
+                            :alt => "rss feed", id:'booksget_logo'), root_path) %></div><!--тут ссылка на картинку-->
     <div class="container">
+
+      <div class="container search_margin_top"
+           style="width:35%; padding-top: 20px; padding-left: 150px; float: right">
+        <%= form_with url: search_url, local: true, method: :get do |form| %>
+          <%= form.text_field :q, :size =>"40", placeholder: "Введите слово",
+                              data:{behavior: "autocomplete"}, class: "form-control width_of_search" %>
+          <div class="ttt" style="padding-top: 5px; float: inherit; text-align: right;">
+            <%= form.button "Поиск", class: "btn btn-large btn-primary" %>
+          </div>
+        <% end %>
+      </div>
+
       <div class="p1"> <%= link_to "App", products_url, id: "logo" %></div>
+
       <nav class="nav pull-right buttons">
-        <p>
-         <%= link_to "Home",    home_path %>
-         <%= link_to "Help",    help_path %>
+        <p class="static_page" style="">
+          <%= link_to "Главная",    home_path %><br>
 
-
-          <%# if signed_in? %>
-          <!--<li><%#= link_to "Users", '#' %></li>-->
-          <!--<li id="fat-menu" class="dropdown">-->
-            <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">-->
-              <!--Account <b class="caret"></b>-->
-            <!--</a>-->
-            <!--<ul class="dropdown-menu">-->
-              <!--<li><%#= link_to "Profile", current_user %></li>-->
-              <!--<li><%#= link_to "Settings", '#' %></li>-->
-              <!--<li class="divider"></li>-->
-              <!--<li>-->
-                <%#= link_to "Sign out", signout_path, method: "delete" %>
-              <!--</li>-->
-            <!--</ul>-->
-          <!--</li>-->
-        <%# else %>
-          <!--<li><%#= link_to "Sign up", signup_path %></li>-->
-          <!--<li><%#= link_to "Sign in", signin_path %></li>-->
-        <%# end %>
-
-
-
-
-
-          <%# if user_signed_in? %>
-            <!--<span>Здравствуйте, <%#= current_user.email %></span>-->
-            <%#= link_to "Изменить свой пароль", edit_user_registration_path %>
-            <%#= link_to 'Выйти', destroy_user_session_path, :method => :delete %>
-          <%# else %>
-            <!--<%#= link_to 'Войти', new_user_session_path %> или <%#= link_to 'Зарегистрироваться', new_user_registration_path %>-->
-          <%# end %>
+          <%= link_to "Мужское",    men_path %>
+          <%= link_to "Женское",    women_path %><br>
+          <%= link_to "Вопросы и Ответы",    help_path %>
+          <%= link_to "Как Купить?",    howtobuy_path %><br>
+          <%= link_to "О нашей продукции",    material_path %><br>
+          <%= link_to "Контакты",    contact_path %>
+          <%= link_to "Условия Обмена",    termsofexchange_path %><br>
+        <%= link_to "Оплата и Доставка",    shipping_payment_path %>
 
         </p>
       </nav>
