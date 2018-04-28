@@ -34,7 +34,29 @@
 
 
 
-    <%= render 'layouts/header' %>
+    <%= render 'layouts/header' %><br><br><br><br><br><br><br><br>
+    <div class="menu">
+      <!--<h1>Евтушенко Продукция</h1>-->
+      <ul>
+        <li><a ><%= link_to "Главная",    home_path %></a></li>
+        <li><a href="#">О НАС</a></li>
+        <li><a href="#">Продукция</a>
+          <ul class="submenu">
+            <li><%= link_to "Мужское",    men_path %></li>
+            <li><%= link_to "Женское",    women_path %></li>
+          </ul>
+        </li>
+        <li><a href="#">Сервис</a>
+          <ul class="submenu">
+            <li><%= link_to "Как Купить?",    howtobuy_path %></li>
+            <li><%= link_to "Вопросы и Ответы",    help_path %></li>
+            <li><%= link_to "О нашей продукции",    material_path %></li>
+          </ul>
+        </li>
+        <li><%= link_to "Контакты",    contact_path %></li>
+        <li><%= link_to "Оплата и Доставка",    shipping_payment_path %></li>
+      </ul>
+    </div>
 
   </header>
     <%= yield %>
