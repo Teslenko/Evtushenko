@@ -8,7 +8,7 @@ class ForWoman < ApplicationRecord
 
   private
   def image_size_validation
-    errors[:womanavtr] << "should be less than 2 Megabites" if womanavtr.size > 2.megabytes
+    errors[:womanavtr] << "Размер изображения должен быть не более 4МB" if womanavtr.size > 4.megabytes
   end
 
 end

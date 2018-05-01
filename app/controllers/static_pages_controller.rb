@@ -19,7 +19,6 @@ class StaticPagesController < ApplicationController
 
   def men
     @for_men = ForMan.all
-
   end
 
   def women

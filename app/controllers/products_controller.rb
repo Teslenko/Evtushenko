@@ -9,7 +9,7 @@ class ProductsController < ApplicationController
   end
 
   def show
-
+    @for_man = ForMan.all
     @products = Product.all
   end
 

@@ -20,27 +20,6 @@ class ForWomenController < ApplicationController
   def edit
   end
 
-  # ######################################################################
-  # def search
-  #   @for_woman = ForWoman.ransack(name_cont: params[:q]).result(distinct: true).limit(2)
-  #
-  #   respond_to do |format|
-  #     format.html{}
-  #     format.json{}
-  #   end
-  # end
-  # ######################################################################
-  # def autocomplete
-  #
-  #   @for_woman = ForWoman.ransack(name_cont: params[:q]).result(distinct: true).limit(5)
-  #
-  #   respond_to do |format|
-  #     format.html{}
-  #     format.json {}
-  #   end
-  # end
-  # ######################################################################
-
   def create
     @for_woman = ForWoman.new(for_woman_params)
     respond_to do |format|
@@ -69,7 +48,7 @@ class ForWomenController < ApplicationController
   def destroy
     @for_woman.destroy
     respond_to do |format|
-      format.html { redirect_to @for_woman_url, notice: 'Продукт удален' }
+      format.html { redirect_to for_women_path, notice: 'Продукт удален' }
       format.json { head :no_content }
     end
   end

@@ -31,19 +31,6 @@
 <div style=" background-position: left">
 
 
-  <% if params[:q].present? %>
-
-    <div style="    position: absolute; color: #589933"> <h3>
-      Search results for "<%= params[:q] %>"
-      <!-- Search Results for -->
-    </h3></div>
-
-  <% else %>
-    <h1>
-      <%= t('/') %>
-      <!-- "Please, type anything" -->
-    </h1>
-  <% end %>
 
   <br>
 
@@ -79,7 +66,24 @@
       <td class="Show" style="padding: 25px"><button class="favth-btn"><%= link_to product.description, product, class: "btn btn-mini btn-primary", type: "button" %></button></td>
       </tr>
     <% end %>
-    </tbody>    <br>
+
+    <%# if @for_man.present? %>
+      <!--<h1>`-->
+        <!--Результаты поиска-->
+      <!--</h1>-->
+    <!--<%# else %>-->
+      <!--<tr> <h3>-->
+        <!--Ничего не найдено-->
+        <!--"<%#= params[:q] %>"-->
+      <!--</h3>-->
+    <!--<%# end %>-->
+    <!--<%# @for_man.each do |for_man| %>-->
+      <!--<td><%#= image_tag for_man.image.thumb.url %></td>-->
+      <!--<td class="Show" style="padding: 25px"><button class="favth-btn " ><%#= link_to for_man.name, for_man, class: "btn btn-mini btn-primary", type: "button" %></button></td>-->
+      <!--<td class="Show" style="padding: 25px"><button class="favth-btn"><%#= link_to for_man.description, for_man, class: "btn btn-mini btn-primary", type: "button" %></button></td>-->
+      <!--</tr>-->
+    <!--<%# end %>-->
+    <!--</tbody>    <br>-->
 
 
 

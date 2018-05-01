@@ -9,7 +9,7 @@ class ForMan < ApplicationRecord
 
   private
   def image_size_validation
-    errors[:avatar] << "should be less than 2 Megabites" if avatar.size > 2.megabytes
+    errors[:avatar] << "Размер изображения должен быть не более 4МB" if avatar.size > 4.megabytes
   end
 
 end

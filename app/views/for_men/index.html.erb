@@ -17,9 +17,9 @@
         <td><%= image_tag for_man.avatar.thumb.url %></td>
         <td><%= for_man.name %></td>
         <td><%= for_man.description %></td>
-        <td><%= link_to 'Show', for_man %></td>
-        <td><%= link_to 'Edit', edit_for_man_path(for_man) %></td>
-        <td><%= link_to 'Destroy', for_man, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Просмотр', for_man %></td>
+        <td><%= link_to 'Редактирование', edit_for_man_path(for_man) %></td>
+        <td><%= link_to 'Удалить', for_man, method: :delete, data: { confirm: 'Вы уверенны что хотите удалить?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -27,4 +27,4 @@
 
 <br>
 
-<%= link_to 'New For Man', new_for_man_path %>
+<%= link_to 'Создать', new_for_man_path %>

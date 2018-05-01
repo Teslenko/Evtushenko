@@ -7,13 +7,13 @@
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= favicon_link_tag 'logo_on_Time.ico' %> <!--тут лежить логотип для страницы для вкладки-->
+    <%= favicon_link_tag 'Logo_I_ico.ico' %> <!--тут лежить логотип для страницы для вкладки-->
 
   </head>
   <!--##############################---Search--#############################################-->
 
   <body>
-
+  <br><br><br><br>
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
   <header class="navbar navbar-fixed-top navbar-inverse">
@@ -34,12 +34,14 @@
 
 
 
-    <%= render 'layouts/header' %><br><br><br><br><br><br><br><br>
+    <%= render 'layouts/header' %>
+    <br><br><br><br><br><br>
     <div class="menu">
+
       <!--<h1>Евтушенко Продукция</h1>-->
       <ul>
-        <li><a ><%= link_to "Главная",    home_path %></a></li>
-        <li><a href="#">О НАС</a></li>
+        <li><%= link_to "Главная",    home_path %></li>
+        <li><%= link_to "О НАС",    about_path %></li>
         <li><a href="#">Продукция</a>
           <ul class="submenu">
             <li><%= link_to "Мужское",    men_path %></li>
@@ -54,11 +56,15 @@
           </ul>
         </li>
         <li><%= link_to "Контакты",    contact_path %></li>
-        <li><%= link_to "Оплата и Доставка",    shipping_payment_path %></li>
+        <li><%= link_to "Оплата и Доставка",    shipping_payment_path %>
+          <ul class="submenu">
+            <li><%= link_to "Условия Обмена",    termsofexchange_path %></li>
+          </ul>
+        </li>
       </ul>
     </div>
-
   </header>
+
     <%= yield %>
   <%#= render 'layouts/footer' %>
   </body>

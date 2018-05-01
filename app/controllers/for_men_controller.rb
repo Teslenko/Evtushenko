@@ -20,27 +20,6 @@ class ForMenController < ApplicationController
   def edit
   end
 
-  # ######################################################################
-  # def search
-  #   @for_man = ForMan.ransack(name_cont: params[:q]).result(distinct: true).limit(2)
-  #
-  #   respond_to do |format|
-  #     format.html{}
-  #     format.json{}
-  #   end
-  # end
-  # ######################################################################
-  # def autocomplete
-  #
-  #   @for_man = ForMan.ransack(name_cont: params[:q]).result(distinct: true).limit(5)
-  #
-  #   respond_to do |format|
-  #     format.html{}
-  #     format.json {}
-  #   end
-  # end
-  # ######################################################################
-
   def create
     @for_man = ForMan.new(for_man_params)
 
@@ -71,7 +50,7 @@ class ForMenController < ApplicationController
   def destroy
     @for_man.destroy
     respond_to do |format|
-      format.html { redirect_to @for_man_url, notice: 'Продукт удален' }
+      format.html { redirect_to for_men_path, notice: 'Продукт удален' }
       format.json { head :no_content }
     end
   end

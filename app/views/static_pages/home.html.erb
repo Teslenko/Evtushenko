@@ -1,31 +1,3 @@
-
-
-
-<!DOCTYPE html>
-<html>
-<head>
-  <!--<title>Ievtushenko Production | <%= yield(:title) %></title>-->
-
-</head>
-<body>
-
-<h1>Евтушенко Продукция</h1>
-
-
-<!--/////////////////////////////////-->
-
-
-  <button style="background-position:center; position: center", class="with-delay">
-    <%= link_to 'Adminka', products_path, class: "btn btn-mini btn-warning", type: "button"%>
-  </button>
-
-
-
-
-
-</body>
-</html>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,39 +14,57 @@
 <div class="slider">
   <div class="slide">
     <% @products.each do |product| %>
-      <%#= image_tag product.image.thumb.url, class: "resize_thumb"%>
-      <%= image_tag product.image.thumb.url%>
-      <%#= product.name %>
-      <%#= product.description %><br><br>
+      <%= image_tag product.image.url%>
+      <br><br>
     <% end %>
-    <!--<img src="img/slideshow_1.jpg" alt="slide1">-->
   </div>
+</div>
 
 <div class="catalog">
 
 
   <div>
     <% @for_men.each do |for_man| %>
-    <a  data-fancybox data-caption="">
-      <%= image_tag for_man.avatar.thumb.url %>
+    <a href="for_men"  data-fancybox data-caption="(<%= for_man.description %>)">
+    <%= image_tag for_man.avatar.thumb.url %>
     </a>
     <h3><%= for_man.name %></h3>
-      <h3><%= for_man.description %></h3>
+    <h3></h3>
   </div>
     <% end %>
 
+
+    <div>
+      <% @for_women.each do |for_woman| %>
+        <a href="<%= link_to 'Просмотр', for_woman %>"  data-fancybox data-caption="<%= for_woman.description %>">
+          <%= image_tag for_woman.womanavtr.thumb.url %>
+        </a>
+        <h3><%= for_woman.name %></h3>
+        <h3></h3>
+        </div>
+      <% end %>
+
   </div>
 
-
-
+  <br>
+<%# @for_men.each do |for_man| %>
   <!--<div>-->
-    <!--<a href="img/2.jpg" data-fancybox data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit dolor earum dolores iste maxime asperiores reprehenderit obcaecati excepturi quis minus hic, vel magni nam, molestias, fugit quod explicabo? Expedita, totam!-->
-			<!--"><img  alt="photo"/></a>-->
+    <!--<a href="men" data-fancybox data-caption="Lorem ipsum dolor sit amet,-->
+     <!--consectetur adipisicing elit. Odit dolor earum dolores iste maxime asperiores reprehenderit-->
+     <!--obcaecati excepturi quis minus hic, vel magni nam, molestias, fugit quod explicabo? Expedita, totam!">-->
+      <!--<%#= image_tag for_man.avatar.thumb.url alt: "photo"%>-->
+    <!--</a>-->
     <!--<h3>499 грн</h3>-->
   <!--</div>-->
+<%# end %>
 
 
-</div>
+  <button style="background-position:center; position: center", class="with-delay">
+    <%= link_to 'Создать Новости', products_path, class: "btn btn-mini btn-warning", type: "button"%>
+  </button>
+
+
+</br>
 <footer>
   <div class="service">
     <h3>Сервис</h3>
