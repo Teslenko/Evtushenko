@@ -7,7 +7,7 @@ class Product < ApplicationRecord
 
   private
   def image_size_validation
-    errors[:image] << "Размер изображения должен быть не более 4МB" if image.size > 4.megabytes
+    errors[:image] << "Размер изображения должен быть не более 4МB" if image.size > 2.5.megabytes
   end
 
 
