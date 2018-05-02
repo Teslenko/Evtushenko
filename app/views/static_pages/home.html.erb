@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" src="assets/custom.css">
+  <!--<link rel="stylesheet" src="assets/custom.css">-->
   <title>Ievtushenko Production | <%= yield(:title) %></title>
   <style>
 
@@ -12,15 +12,21 @@
 
 <body>
 
-
-
+<div class="slider">
+  <% @products.each do |product|%>
+  <div class="slide">
+      <%= image_tag product.image.url  alt: "slide1"  %>
+      <br><br>
+  </div>
+  <% end %>
+</div>
 
 <div class="catalog">
 
 
   <div>
     <% @for_men.each do |for_man| %>
-    <a href="for_men"  data-fancybox data-caption="(<%= for_man.description %>)">
+    <a href=""  data-fancybox data-caption="(<%= for_man.description %>)">
     <%= image_tag for_man.avatar.thumb.url %>
     </a>
     <h3><%= for_man.name %></h3>
@@ -31,7 +37,7 @@
 
     <div>
       <% @for_women.each do |for_woman| %>
-        <a href="<%= link_to 'Просмотр', for_woman %>"  data-fancybox data-caption="<%= for_woman.description %>">
+        <a href=""  data-fancybox data-caption="<%= for_woman.description %>">
           <%= image_tag for_woman.womanavtr.thumb.url %>
         </a>
         <h3><%= for_woman.name %></h3>
@@ -77,9 +83,9 @@
     <p>ВС: 10:00 - 17:00</p>
   </div>
 </footer>
-<script src="assets/jquery.js" type="text/javascript"></script>
-<script src="assets/slick.min.js" type="text/javascript"></script>
-<script src="assets/jquery.fancybox.js" type="text/javascript"></script>
-<script src="assets/script.js" type="text/javascript"></script>
+<!--<script src="assets/jquery.js" type="text/javascript"></script>-->
+<!--<script src="assets/slick.min.js" type="text/javascript"></script>-->
+<!--<script src="assets/jquery.fancybox.js" type="text/javascript"></script>-->
+<!--<script src="assets/script.js" type="text/javascript"></script>-->
 </body>
 </html>
