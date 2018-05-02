@@ -17,9 +17,13 @@
 <div class="slider">
   <div class="slide">
     <% @products.each do |product| %>
-      <%= image_tag product.image.url%>
+      <%= image_tag product.image.url alt: "slide1"%>
       <br><br>
     <% end %>
+
+
+
+
   </div>
 </div>
 
@@ -95,9 +99,9 @@
     <p>ВС: 10:00 - 17:00</p>
   </div>
 </footer>
-<script src="js/jquery.js" type="text/javascript"></script>
-<script src="js/slick.min.js" type="text/javascript"></script>
-<script src="js/jquery.fancybox.js" type="text/javascript"></script>
-<script src="js/script.js" type="text/javascript"></script>
+<script src="assets/jquery.js" type="text/javascript"></script>
+<script src="assets/slick.min.js" type="text/javascript"></script>
+<script src="assets/jquery.fancybox.js" type="text/javascript"></script>
+<script src="assets/script.js" type="text/javascript"></script>
 </body>
 </html>
