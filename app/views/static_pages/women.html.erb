@@ -1,6 +1,9 @@
 <br><br><br>
 <h1>Женское Белье</h1>
 <br>
+<button style="background-position:center; position: center", class="with-delay">
+<%= link_to 'Назад', :back, class: "btn btn-mini btn-info", type: "button" %>
+</button>
 <table>
   <thead>
   <tr>
@@ -16,9 +19,9 @@
       <td><%= image_tag for_woman.womanavtr.thumb.url %></td>
       <td><%= for_woman.name %></td>
       <td><%= for_woman.description %></td>
-      <td><%= link_to 'Show', for_woman %></td>
-      <td><%= link_to 'Edit', edit_for_woman_path(for_woman) %></td>
-      <td><%= link_to 'Destroy', for_woman, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      <td><%= link_to 'Просмотр', for_woman %></td>
+      <td><%= link_to 'Редактировать', edit_for_woman_path(for_woman) %></td>
+      <td><%= link_to 'Удалить', for_woman, method: :delete, data: { confirm: 'Вы уверенны, что хотите удалить?' } %></td>
     </tr>
   <% end %>
   </tbody>
