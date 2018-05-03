@@ -7,9 +7,9 @@ class ForMan < ApplicationRecord
   validates_processing_of :avatar
   validate :image_size_validation
 
-  # private
-  # def image_size_validation
-  #   errors[:avatar] << "Размер изображения должен быть не более 4МB" if avatar.size > 4.megabytes
-  # end
+  private
+  def image_size_validation
+    # errors[:avatar] << "Размер изображения должен быть не более 4МB" if avatar.size > 4.megabytes
+  end
 
 end
