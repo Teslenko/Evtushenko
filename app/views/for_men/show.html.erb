@@ -1,7 +1,7 @@
-<p id="notice"><%= notice %></p>
+<br><br><br>
 
 <p>
-  <strong></strong>
+
   <%= image_tag @for_man.avatar.thumb.url %>
 </p>
 
@@ -15,5 +15,5 @@
   <%= @for_man.description %>
 </p>
 
-<%= link_to 'Edit', edit_for_man_path(@for_man) %> |
+<%= link_to 'Редактировать', edit_for_man_path(@for_man) %> |
 <%= link_to 'Back', for_men_path %>
