@@ -17,18 +17,16 @@
   <tbody>
   <% @for_men.each do |for_man| %>
     <tr>
-      <td><%= image_tag for_man.avatar.thumb.url %></td>
+      <td><%= link_to (image_tag for_man.avatar.thumb.url), for_man %></td>
       <td><%= for_man.name %></td>
       <td><%= for_man.description %></td>
-      <td><%= link_to 'Просмотр', for_man %></td>
-      <td><%= link_to 'Редактирование', edit_for_man_path(for_man) %></td>
-      <td><%= link_to 'Удалить', for_man, method: :delete, data: { confirm: 'Вы уверенны что хотите удалить?' } %></td>
+      <td><%= link_to 'Просмотр', for_man, class: "alert alert-info" %></td>
     </tr>
   <% end %>
   </tbody>
 </table>
 <br>
-<button style="background-position:center; position: center", class="with-delay">
-  <%= link_to 'Создать Новое', new_for_man_path, class: "btn btn-mini btn-warning", type: "button"%>
-</button
-><br>
+<!--<div style="background-position:center; position: center", class="with-delay">-->
+  <!--<%#= link_to 'Создать Новое', new_for_man_path, class: "btn btn-mini btn-warning", type: "button"%>-->
+<!--</div>-->
+<br>

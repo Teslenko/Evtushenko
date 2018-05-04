@@ -13,7 +13,9 @@
   <strong>Description:</strong>
   <%= @for_woman.description %>
 </p>
+<br><br>
+<%= link_to 'Редактировать', edit_for_woman_path(@for_woman), class: "alert alert-warning" %> |
 
-<%= link_to 'Редактировать', edit_for_woman_path(@for_woman) %> |
-<%= link_to 'Назад', for_women_path %>
+  <%= link_to 'Назад', :back, class: "alert alert-info", type: "button" %>
+
 

@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   get '/material' => 'static_pages#material'
   get '/termsofexchange' => 'static_pages#termsofexchange'
   get '/shipping_payment' => 'static_pages#shipping_payment'
+  get '/adminka' => 'static_pages#adminka'
 
   get :search, controller: :products
   get :search, controller: :for_men

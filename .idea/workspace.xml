@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af49cae3-a38e-4388-9cda-3dfad4e69268" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/static_pages/adminka.html.erb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
+      <change beforePath="$PROJECT_DIR$/app/views/for_men/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/for_men/_form.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/for_men/index.html.erb" afterPath="$PROJECT_DIR$/app/views/for_men/index.html.erb" />
       <change beforePath="$PROJECT_DIR$/app/views/for_men/show.html.erb" afterPath="$PROJECT_DIR$/app/views/for_men/show.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/for_women/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/for_women/_form.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/for_women/index.html.erb" afterPath="$PROJECT_DIR$/app/views/for_women/index.html.erb" />
       <change beforePath="$PROJECT_DIR$/app/views/for_women/show.html.erb" afterPath="$PROJECT_DIR$/app/views/for_women/show.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/about.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/about.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/products/_form.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/index.html.erb" afterPath="$PROJECT_DIR$/app/views/products/index.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/static_pages/men.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/men.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/static_pages/women.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/women.html.erb" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/avatar/23042012007.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/avatar/thumb_23042012007.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/womanavtr/balcony-428-1-alisa.ua_large.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/womanavtr/thumb_balcony-428-1-alisa.ua_large.jpg" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -26,48 +41,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/for_women/show.html.erb">
+      <file leaf-file-name="women.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/static_pages/women.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="63">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.erb">
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/for_women/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="701">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#9;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#12;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#13;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#14;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1525372843692" expanded="false" signature="242:311" ph="..." />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="men.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/static_pages/men.html.erb">
+      <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="620">
+              <caret line="68" column="32" lean-forward="true" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -76,68 +74,68 @@
       <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/for_men/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="for_woman.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/for_woman.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image_uploader.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
+      <file leaf-file-name="men.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/static_pages/men.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="for_man.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/for_man.rb">
+      <file leaf-file-name="_header.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="399">
+              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/for_women/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32004">
-              <caret line="1524" column="15" lean-forward="false" selection-start-line="1524" selection-start-column="15" selection-end-line="1524" selection-end-column="15" />
+            <state relative-caret-position="651">
+              <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shipping_payment.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/static_pages/shipping_payment.erb">
+      <file leaf-file-name="adminka.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/static_pages/adminka.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="21">
+              <caret line="80" column="4" lean-forward="false" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="termsofexchange.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/static_pages/termsofexchange.erb">
+      <file leaf-file-name="static_pages_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state relative-caret-position="462">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -200,27 +198,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/for_men/search.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/for_women/search.json.jbuilder" />
-        <option value="$PROJECT_DIR$/app/views/for_women/search.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/products/search.json.jbuilder" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/search.js" />
         <option value="$PROJECT_DIR$/app/views/candidates/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/for_men/new.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" />
-        <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/search_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/products/search.html.erb" />
         <option value="$PROJECT_DIR$/app/views/products/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/products/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/products/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/for_women/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/candidates_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/for_men/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/for_men_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/for_women_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/channels/slick.min.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/slick.min.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/script.js" />
@@ -229,11 +218,7 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/script.js.map" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/easy-autocomplete.themes.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/for_women/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/women.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/men.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/help.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/howtobuy.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/material.html.erb" />
@@ -248,9 +233,22 @@
         <option value="$PROJECT_DIR$/app/models/for_man.rb" />
         <option value="$PROJECT_DIR$/app/models/for_woman.rb" />
         <option value="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
-        <option value="$PROJECT_DIR$/app/views/for_women/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/for_men/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/about.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/for_women/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/for_men/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/for_men/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/for_women/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/adminka.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/men.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/women.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/for_men/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/for_women/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
       </list>
     </option>
   </component>
@@ -323,37 +321,6 @@
               <item name="Evtushenko" type="b2602c69:ProjectViewProjectNode" />
               <item name="Evtushenko" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evtushenko" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evtushenko" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evtushenko" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evtushenko" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evtushenko" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evtushenko" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evtushenko" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evtushenko" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="uploaders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evtushenko" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evtushenko" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -375,7 +342,7 @@
               <item name="Evtushenko" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Evtushenko" type="b2602c69:ProjectViewProjectNode" />
@@ -676,12 +643,19 @@
       <workItem from="1525299537400" duration="1536000" />
       <workItem from="1525349373024" duration="1555000" />
       <workItem from="1525369997349" duration="1776000" />
-      <workItem from="1525371802516" duration="1046000" />
+      <workItem from="1525371802516" duration="1614000" />
+      <workItem from="1525380861006" duration="370000" />
+      <workItem from="1525438138531" duration="2147000" />
+      <workItem from="1525440473624" duration="1240000" />
+      <workItem from="1525442747355" duration="854000" />
+      <workItem from="1525449283614" duration="1626000" />
+      <workItem from="1525451114561" duration="1782000" />
+      <workItem from="1525453038366" duration="857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202330000" />
+    <option name="totallyTimeSpent" value="211774000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -696,7 +670,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3791622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2717508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.055737704" sideWeight="0.23200859" order="7" side_tool="true" content_ui="tabs" />
@@ -738,64 +712,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="10364" column="0" lean-forward="true" selection-start-line="10364" selection-start-column="0" selection-end-line="10364" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.fancybox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8147">
-          <caret line="5138" column="0" lean-forward="true" selection-start-line="5138" selection-start-column="0" selection-end-line="5138" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/easy-autocomplete.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/easy-autocomplete.themes.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4284">
-          <caret line="204" column="12" lean-forward="false" selection-start-line="204" selection-start-column="12" selection-end-line="204" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.easy-autocomplete.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33331">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/end">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/parser.scss" />
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/persons.scss" />
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sessions.scss" />
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css" />
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/static_pages.scss">
@@ -834,52 +750,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/for_women/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/for_women/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/for_women/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/women.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -912,13 +786,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb" />
-    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -943,20 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -972,27 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/product.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32004">
           <caret line="1524" column="15" lean-forward="false" selection-start-line="1524" selection-start-column="15" selection-end-line="1524" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1000,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,7 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,7 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,56 +864,193 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/for_men/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/product.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/for_women_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/search_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/for_women/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/for_men/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="39" column="53" lean-forward="false" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/for_women/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="39" column="53" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/for_women/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/for_men/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="12" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="32" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/for_women/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/adminka.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="80" column="4" lean-forward="false" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/men.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="315">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/women.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#9;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#12;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#13;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#14;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1525372843692" expanded="false" signature="242:311" ph="..." />
-          </folding>
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/for_men/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/for_women/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="68" column="32" lean-forward="true" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

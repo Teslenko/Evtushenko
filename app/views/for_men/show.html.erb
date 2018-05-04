@@ -14,6 +14,10 @@
   <strong>Description:</strong>
   <%= @for_man.description %>
 </p>
+<br><br>
 
-<%= link_to 'Редактировать', edit_for_man_path(@for_man) %> |
-<%= link_to 'Back', for_men_path %>
+<%= link_to 'Редактировать', edit_for_man_path(@for_man), class: "alert alert-warning" %> |
+
+  <%= link_to 'Назад', :back, class: "alert alert-info", type: "button" %>
+
+

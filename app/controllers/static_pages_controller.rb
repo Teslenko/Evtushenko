@@ -24,4 +24,10 @@ class StaticPagesController < ApplicationController
   def women
     @for_women = ForWoman.all
   end
+
+  def adminka
+  @products = Product.all
+  @for_men = ForMan.all
+  @for_women = ForWoman.all
+  end
 end
