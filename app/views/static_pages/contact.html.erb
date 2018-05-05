@@ -9,4 +9,27 @@
 <h3>Где нас можно найти?</h3><br>
 <p>Г. Одесса, промрынок "7 км", ул Престижная, 455.</p>
 <h3 style="text-align: center;">+38(095) 067-48-23</h3><br>
-<h3 style="text-align: center;">Александр</h3>\
+<h3 style="text-align: center;">Александр</h3>
+<br><br>
+
+<div id="map" style="width-max:1920px;wid-min:600; height:500px;background:yellow; position: center"></div>
+<div>
+<script>
+    function myMap() {
+        var mapOptions = {
+            center: new google.maps.LatLng(46.442, 30.65),
+            zoom: 16,
+            mapTypeId: google.maps.MapTypeId.HYBRID
+        }
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+</div>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
