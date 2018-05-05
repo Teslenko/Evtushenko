@@ -74,6 +74,18 @@ git remote -v
 
 --------------------
 
+rm -rf tmp/*
+
+rm -rf public/assets/*
+
+RAILS_ENV='production' rake assets:precompile
+
+bundle exec rake assets:precompile
+
+heroku run rake css:rebuild
+
+--------------------
+
 .backup ?DB? FILE      Backup DB (default "main") to FILE
 
 .bail ON|OFF           Stop after hitting an error.  Default OFF
