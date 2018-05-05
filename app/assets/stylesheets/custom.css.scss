@@ -1626,15 +1626,19 @@ table {
   margin: 0 auto;
 }
 
-.catalog > div {
-  width: 250px;
+.women_underwear {
+  width: 237px;
   border: 2px solid transparent;
   -webkit-transition: .9s;
   -o-transition: .9s;
   transition: .9s;
-  height: 405px;
+  height: 555px;
   overflow: hidden;
   margin-bottom: 10px;
+}
+
+.men_underwear{
+  height: 230px;
 }
 
 .catalog > div:hover {
@@ -1716,6 +1720,8 @@ table {
   max-width: 1920px;
   margin: 0 auto;
 }
+
+
 
 footer {
   margin-top: 30px;
