@@ -1,5 +1,7 @@
 class StaticPagesController < ApplicationController
-  def home
+  before_action :set_static_page, only: [:show]
+
+    def home
     @products = Product.all
     @for_men = ForMan.all
     @for_women = ForWoman.all
@@ -29,5 +31,13 @@ class StaticPagesController < ApplicationController
   @products = Product.all
   @for_men = ForMan.all
   @for_women = ForWoman.all
+  end
+
+  private
+  def set_women
+    @for_woman = ForWoman.find(params[:id])
+  end
+  def women_params
+    params.require(:static_page).permit(:name, :description, :avatar, :womanavtr, :image)
   end
 end
