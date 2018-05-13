@@ -10989,7 +10989,7 @@ table {
   -webkit-transition: .9s;
   -o-transition: .9s;
   transition: .9s;
-  height: 555px;
+  height: 581px;
   overflow: hidden;
   margin-bottom: 10px;
 }
@@ -11000,23 +11000,28 @@ table {
 }
 
 /* line 1645, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+women_t_shirts {
+  height: 475px;
+}
+
+/* line 1649, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .catalog > div:hover {
   border: 2px solid lightgray;
 }
 
-/* line 1649, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1653, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .catalog > div:hover img {
   -webkit-transform: scale(1.09);
   -ms-transform: scale(1.09);
   transform: scale(1.09);
 }
 
-/* line 1655, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1659, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .catalog > div:hover h3 {
   font-weight: 700;
 }
 
-/* line 1659, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1663, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .catalog img {
   width: 230px;
   padding: 10px;
@@ -11025,10 +11030,11 @@ table {
   transition: .4s;
 }
 
-/* line 1667, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1671, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .catalog h3 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  text-align: center;
+  font-size: 18px;
   padding: 10px 0 15px 15px;
   opacity: .9;
   -webkit-transition: .2s;
@@ -11036,14 +11042,14 @@ table {
   transition: .2s;
 }
 
-/* line 1677, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1682, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .catalog a {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
 
-/* line 1683, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1688, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .contactspage {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11056,17 +11062,17 @@ table {
   min-width: 800px;
 }
 
-/* line 1695, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1700, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .contactspage img {
   width: 30px;
 }
 
-/* line 1699, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1704, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .contactspage a {
   padding: 10px;
 }
 
-/* line 1703, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1708, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .contactspage h3 {
   padding: 20px 0;
   font-family: 'Open Sans', sans-serif;
@@ -11074,7 +11080,7 @@ table {
   font-weight: 700;
 }
 
-/* line 1710, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1715, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .contactspage p {
   padding: 5px 0;
   font-family: 'Open Sans', sans-serif;
@@ -11083,7 +11089,7 @@ table {
   line-height: 20px;
 }
 
-/* line 1718, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1723, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 #googlemaps {
   height: 430px;
   width: 100%;
@@ -11091,7 +11097,7 @@ table {
   margin: 0 auto;
 }
 
-/* line 1727, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1732, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 footer {
   margin-top: 30px;
   padding-bottom: 20px;
@@ -11111,13 +11117,13 @@ footer {
   justify-content: space-between;
 }
 
-/* line 1746, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1751, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 footer > div {
   width: 32%;
   text-align: center;
 }
 
-/* line 1751, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1756, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 footer > div h3 {
   padding: 20px 0;
   font-family: 'Open Sans', sans-serif;
@@ -11126,7 +11132,7 @@ footer > div h3 {
   font-weight: 700;
 }
 
-/* line 1759, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1764, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 footer > div p {
   padding: 5px 0;
   font-family: 'Open Sans', sans-serif;
@@ -11136,12 +11142,12 @@ footer > div p {
   line-height: 20px;
 }
 
-/* line 1768, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1773, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 footer .contacts img {
   width: 30px;
 }
 
-/* line 1772, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1777, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 footer .contacts a {
   padding: 10px;
 }
@@ -11158,7 +11164,7 @@ body {
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
-  line-height: 13px;
+  line-height: 11px;
 }
 
 /* line 17, /mnt/c/Evtushenko/app/assets/stylesheets/scaffolds.scss */
