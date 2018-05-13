@@ -1633,13 +1633,17 @@ table {
   -webkit-transition: .9s;
   -o-transition: .9s;
   transition: .9s;
-  height: 555px;
+  height: 581px;
   overflow: hidden;
   margin-bottom: 10px;
 }
 
 .men_underwear{
   height: 230px;
+}
+
+women_t_shirts{
+  height: 475px;
 }
 
 .catalog > div:hover {
@@ -1666,7 +1670,8 @@ table {
 
 .catalog h3 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  text-align: center;
+  font-size: 18px;
   padding: 10px 0 15px 15px;
   opacity: .9;
   -webkit-transition: .2s;

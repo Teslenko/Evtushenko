@@ -19,6 +19,9 @@ class StaticPagesController < ApplicationController
   def termsofexchange
   end
 
+  def women_t_shirts
+  end
+
   def men
     @for_men = ForMan.all
   end
@@ -40,4 +43,6 @@ class StaticPagesController < ApplicationController
   def women_params
     params.require(:static_page).permit(:name, :description, :avatar, :womanavtr, :image)
   end
+
+
 end

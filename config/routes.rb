@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   get '/termsofexchange' => 'static_pages#termsofexchange'
   get '/shipping_payment' => 'static_pages#shipping_payment'
   get '/adminka' => 'static_pages#adminka'
+  get '/women_t_shirts' => 'static_pages#women_t_shirts'
 
   get :search, controller: :products
   get :search, controller: :for_men
