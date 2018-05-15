@@ -18,6 +18,7 @@ Rails.application.routes.draw do
   get '/shipping_payment' => 'static_pages#shipping_payment'
   get '/adminka' => 'static_pages#adminka'
   get '/women_t_shirts' => 'static_pages#women_t_shirts'
+  get '/womens_underwear' => 'static_pages#womens_underwear'
 
   get :search, controller: :products
   get :search, controller: :for_men
