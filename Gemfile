@@ -7,7 +7,6 @@ end
 
 # ruby '2.4.3'
 ruby '2.4.1'
-# ruby '2.4.2'
 
 gem 'rails', '~> 5.1.4'
 
@@ -38,8 +37,6 @@ gem 'carrierwave', '~> 0.10.0'
 gem 'mini_magick', '~> 4.3'
 
 gem 'image_magick'
-
-
 
 gem 'bootstrap-sass', ' 3.3.7'
 

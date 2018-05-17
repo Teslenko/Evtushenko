@@ -13,11 +13,9 @@
   <!--##############################---Search--#############################################-->
 
   <body>
-  <br><br><br><br>
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
+  <br><br><br><br><br><br><br>
+  <br>
   <header class="navbar navbar-fixed-top navbar-inverse">
-
 
     <div class="container main">
       <div class="row">
@@ -43,21 +41,22 @@
         <li><%= link_to "Главная",    home_path %></li>
         <li><%= link_to "О НАС",    about_path %></li>
         <li><%= link_to "Мужское",    men_path %></li>
-        <li><a href="#">Женское</a>
+        <li>
+          <a href="#">Женское</a>
           <ul class="submenu">
             <li><%= link_to "Пижамы",    women_path %></li>
             <li><%= link_to "Майки",    women_t_shirts_path %></li>
             <li><%= link_to "Женское Белье",    womens_underwear_path %></li>
           </ul>
         </li>
-        <li><a href="#">Сервис</a>
+        <li>
+          <a href="#">Сервис</a>
           <ul class="submenu">
             <li><%= link_to "Как Купить?",    howtobuy_path %></li>
             <li><%= link_to "Вопросы и Ответы",    help_path %></li>
             <li><%= link_to "О нашей продукции",    material_path %></li>
           </ul>
         </li>
-
         <li><%= link_to "Оплата и Доставка",    shipping_payment_path %>
           <ul class="submenu">
             <li><%= link_to "Условия Обмена",    termsofexchange_path %></li>
