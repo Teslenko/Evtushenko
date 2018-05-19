@@ -82,6 +82,8 @@ RAILS_ENV='production' rake assets:precompile
 
 bundle exec rake assets:precompile
 
+rake assets:clean && rake assets:clobber && rake assets:precompile
+
 heroku run rake css:rebuild
 
 --------------------
