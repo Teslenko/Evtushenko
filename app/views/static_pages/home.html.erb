@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Ievtushenko Production | <%= yield(:title) %></title>
-  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
     .carousel-inner > .item > img,
@@ -11,80 +10,43 @@
       width: 70%;
       margin: auto;
     }
+    a:hover {
+      color: #dada22;
+    }
+
   </style>
 </head>
 
 
 <body>
-<br><br>
+
 
 <!--Слайдер///////////////////////////////////////-->
-<div class="container">
-
-  <br> <br>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-
-      <div class="item active">
-        <img src="https://s3.eu-central-1.amazonaws.com/ievtushenko/Carousel/Home_image1.png" alt="Chania" width="460" height="345">
-        <div class="carousel-caption">
-          <h3 style="font-size: x-large; color: #ddd9a9;">Пижама 1</h3>
-          <p style="color: #ddd9a9;">Тут Будет Новость по 1й Пижаме</p>
-        </div>
-      </div>
-
-      <div class="item">
-
-        <img src="https://s3.eu-central-1.amazonaws.com/ievtushenko/Carousel/Home_image2.png" alt="Chania" width="460" height="345">
-        <div class="carousel-caption">
-          <h3 style="font-size: x-large; color: #ddd9a9;">Пижама 2</h3>
-          <p style="color: #ddd9a9;">Тут Будет Новость по 2й Пижаме</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="https://s3.eu-central-1.amazonaws.com/ievtushenko/Carousel/Home_image3.png" alt="Flower" width="460" height="345">
-        <div class="carousel-caption">
-          <h3 style="font-size: x-large; color: #ddd9a9;">Пижама 3</h3>
-          <p style="color: #ddd9a9;">Новости по 3й Пижаме</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="https://s3.eu-central-1.amazonaws.com/ievtushenko/Carousel/Home_image4.png" alt="Flower" width="460" height="345">
-        <div class="carousel-caption">
-          <h3 style="font-size: x-large; color: #ddd9a9;">Пижама 4</h3>
-          <p style="color: #ddd9a9;">Новости по 4й Пижаме</p>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon " aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> <!--role="button"-->
-      <span class="glyphicon " aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+<br>
+<div class="slider">
+  <div class="slide">
+    <img src="https://s3.eu-central-1.amazonaws.com/ievtushenko/Carousel/Home_image1.png" alt="slide1">
+  </div>
+  <div class="slide">
+    <img src="https://s3.eu-central-1.amazonaws.com/ievtushenko/Carousel/Home_image2.png" alt="slide2">
+  </div>
+  <div class="slide">
+    <img src="https://s3.eu-central-1.amazonaws.com/ievtushenko/Carousel/Home_image3.png" alt="slide3">
+  </div>
+  <div class="slide">
+    <img src="https://s3.eu-central-1.amazonaws.com/ievtushenko/Carousel/Home_image4.png" alt="slide4">
   </div>
 </div>
+
+
+
 
 <!--Мужское и Женское///////////////////////////////////////-->
 <!--Женские Пижамы///-->
 <br> <br>
-<h1>Женские Пижамы</h1>
+
+
+<h1><%= link_to "Женские Пижамы", women_path, id: "schlafanzug"%></h1>
 <br>
 <div class="catalog">
   <div class="women_underwear">
@@ -117,7 +79,8 @@
 
 <!--Женские Майки///-->
 <br> <br>
-<h1>Женские Майки</h1>
+
+<h1><%= link_to "Женские Майки", women_t_shirts_path, id: "t_shirts" %></h1>
 <br>
 <div class="catalog">
   <div class="women_t_shirts">
@@ -169,7 +132,7 @@
 </div>
 <hr>
   <!--Мужское белье///-->
-<h1>Мужское белье</h1>
+<h1><%= link_to "Мужское белье", men_path %></h1>
 <br>
 <div class="catalog">
   <div class="men_underwear">
@@ -194,18 +157,21 @@
     <h4>code: 4413</h4>
   </div>
   <div class="men_underwear">
-    <a href="https://s3.eu-central-1.amazonaws.com/ievtushenko/Men_underwear/Men_underwear_4416_dark blue_85grn.png" data-fancybox="gallery" data-fancybox data-caption="
-    Цена - 85грн, цвет: Темно Синий<br> code: 4416
-			"><img src="https://s3.eu-central-1.amazonaws.com/ievtushenko/Men_underwear/Men_underwear_4416_dark blue_85grn.png" alt="photo"/></a>
-    <h3>85 грн</h3>
-    <h4>code: 4416</h4>
+    <a href="https://s3.eu-central-1.amazonaws.com/ievtushenko/Men_underwear/Men_underwear_dark_grey_1084_S_M_L_XL_100grn.png" data-fancybox="gallery" data-fancybox data-caption="
+    На Темно-Серый Цвет и на Размеры: S-M-L-XL -> Цена - 120грн
+    <br>
+    code: 1084
+			"><img src="https://s3.eu-central-1.amazonaws.com/ievtushenko/Men_underwear/Men_underwear_dark_grey_1084_S_M_L_XL_100grn.png" alt="photo"/></a>
+    <h3>120 грн</h3>
+    <h4>code: 1084</h4>
   </div>
 </div>
   <br>
 
 <hr>
 <!--Мужское белье///-->
-<h1>Женское белье</h1>
+
+<h1><%= link_to "Женское Белье", womens_underwear_path %></h1>
 <br>
 <div class="catalog">
   <div class="men_underwear">
@@ -254,10 +220,11 @@
 </br>
 <footer>
   <div class="service">
-    <!--<h3>Сервис</h3>-->
-    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero laudantium at fugiat,-->
-      <!--consectetur iure repudiandae! Earum illum laborum atque, quod odit, quam reprehenderit ut perspiciatis!-->
-      <!--Optio at porro atque consequatur.</p>-->
+    <h3>Где нас можно найти?</h3>
+    <p>Г. Одесса, промрынок "7 км", ул Престижная, 455.</p>
+    <p>Ассортимент на сайте может отличаться от фактического.</p>
+    <br><br><br><br>
+
   </div>
   <div class="contacts">
     <h3>Контакты</h3>
@@ -267,9 +234,9 @@
     <h3>Поделиться</h3>
     <a href="https://www.facebook.com/Underwear-196240304295770/"><img src="assets/facebook.png" alt="facebook"></a>
     <a href="https://www.instagram.com/underwear_for_her_and_him/"><img src="assets/instagram.png" alt="instagram"></a>
-    <h3>Где нас можно найти?</h3>
-    <p>Г. Одесса, промрынок "7 км", ул Престижная, 455.</p>
-    <p>Ассортимент на сайте может отличаться от фактического.</p>
+    <hr>
+    <h3 class="tesl_n_co"><%= link_to "Tesl-N-Co Development", "https://www.facebook.com/akvelibrium", id: "tesl_n_co" %></h3>
+
   </div>
   <div class="timework">
     <h3>Время работы</h3>
