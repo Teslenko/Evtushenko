@@ -17,6 +17,7 @@
 !/log/.keep
 !/tmp/.keep
 
+
 /node_modules
 /yarn-error.log
 
@@ -41,4 +42,4 @@ thumb_To-Be-Hero-subtitle-indonesia.jpg
 .idea/**/uiDesigner.xml
 
 .idea/*
-
+.public/*
