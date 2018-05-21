@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Tesel</title>
+</head>
+<body>
 <br><br><br><br>
 <h1>Наши Контакты</h1>
 <button style="background-position:center; position: center", class="with-delay">
@@ -12,24 +20,28 @@
 <h3 style="text-align: center;">Александр</h3>
 <br><br>
 
-<div id="map" style="width-max:1920px;wid-min:600; height:500px;background:yellow; position: center"></div>
+<div id="googlemaps" style="width-max:1920px;wid-min:600; height:500px;background:yellow; position: center"></div>
 <div>
-<script>
-    function myMap() {
-        var mapOptions = {
-            center: new google.maps.LatLng(46.442, 30.65),
-            zoom: 16,
-            mapTypeId: google.maps.MapTypeId.HYBRID
-        }
-        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-    }
+<!--<script>-->
+<!--//   function myMap() {-->
+<!--//       var mapOptions = {-->
+<!--//           center: new google.maps.LatLng(46.442, 30.65),-->
+<!--//           zoom: 16,-->
+<!--//           mapTypeId: google.maps.MapTypeId.HYBRID-->
+<!--//       }-->
+<!--//       var map = new google.maps.Map(document.getElementById("map"), mapOptions);-->
+<!--//   }-->
+<!--</script>-->
+
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBN_BcT9zj8l80ABl1GIrJ8jZM1zESf9hk&callback=myMap"></script>-->
+</div>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBN_BcT9zj8l80ABl1GIrJ8jZM1zESf9hk&callback=initMap">
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
-</div>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
+
+
+ <!--// To use this code on your website, get a free API key from Google.// Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp-->
 
 </body>
+</html>
