@@ -74,6 +74,8 @@ git remote -v
 
 --------------------
 
+git rm --cached -r public/
+
 rm -rf tmp/*
 
 rm -rf public/assets/*
