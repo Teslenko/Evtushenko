@@ -10876,7 +10876,7 @@ header {
   width: 100%;
   max-width: 1920px;
   min-width: 950px;
-  background-color: #cae458;
+  background-color: black;
   margin: 0 auto;
   min-height: 60px;
   text-align: center;
@@ -10892,7 +10892,7 @@ header {
 
 /* line 1549, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .menu > ul > li a {
-  color: #333;
+  color: #e4518f;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 56px;
@@ -10936,7 +10936,7 @@ header {
 
 /* line 1588, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .menu > ul > li .submenu li a:hover {
-  color: #888888;
+  color: #dd81a7;
 }
 
 /* line 1592, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
@@ -10953,7 +10953,7 @@ header {
 
 /* line 1602, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .menu > ul > li:hover > a {
-  color: #888888;
+  color: #171add;
 }
 
 /* line 1606, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
@@ -11352,7 +11352,7 @@ footer .contacts a {
 }
 /* line 1, /mnt/c/Evtushenko/app/assets/stylesheets/scaffolds.scss */
 body {
-  background-color: #81c1f7;
+  background-color: white;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
@@ -11379,7 +11379,7 @@ a {
 }
 /* line 26, /mnt/c/Evtushenko/app/assets/stylesheets/scaffolds.scss */
 a:visited {
-  color: #86b9dd;
+  color: #0a395a;
 }
 /* line 30, /mnt/c/Evtushenko/app/assets/stylesheets/scaffolds.scss */
 a:hover {

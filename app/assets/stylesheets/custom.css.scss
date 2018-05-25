@@ -1533,7 +1533,7 @@ header {
   width: 100%;
   max-width: 1920px;
   min-width: 950px;
-  background-color:#cae458;
+  background-color:black;//#cae458;
   margin: 0 auto;
   min-height: 60px;
   text-align: center;
@@ -1547,7 +1547,7 @@ header {
 }
 
 .menu > ul > li a {
-  color: #333;
+  color: #e4518f;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 56px;
@@ -1586,7 +1586,7 @@ header {
 }
 
 .menu > ul > li .submenu li a:hover {
-  color: #888888;
+  color: #dd81a7;
 }
 
 .menu > ul > li:hover .submenu {
@@ -1600,7 +1600,7 @@ header {
 }
 
 .menu > ul > li:hover > a {
-  color: #888888;
+  color: #171add;
 }
 
 .slider {
