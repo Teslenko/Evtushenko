@@ -498,13 +498,13 @@ body.compensate-for-scrollbar {
   border-radius: 0;
   cursor: pointer;
   display: inline-block;
-  height: 75px;
+  height: 44px;
   margin: 0;
   outline: none;
   padding: 10px;
   transition: color .2s;
   vertical-align: top;
-  width: 75px;
+  width: 44px;
 }
 
 .fancybox-button,
@@ -561,12 +561,12 @@ body.compensate-for-scrollbar {
 /* Navigation arrows */
 
 .fancybox-navigation .fancybox-button {
-  height: 60px;
+  height: 38px;
   opacity: 0;
   padding: 6px;
   position: absolute;
   top: 50%;
-  width: 60px;
+  width: 38px;
 }
 
 .fancybox-show-nav .fancybox-navigation .fancybox-button {
@@ -1516,10 +1516,23 @@ table {
   src: local('Open Sans Bold'), local('OpenSans-Bold'), url("https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhs.ttf") format('truetype');
 }
 
+header {
+  min-width: 950px;
+  max-width: 1920px;
+  margin: 0 auto;
+  min-height: 30px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .menu {
   width: 100%;
-  max-width: 2400px;
-  min-width: 800px;
+  max-width: 1920px;
+  min-width: 950px;
   background-color:#cae458;
   margin: 0 auto;
   min-height: 60px;
@@ -1529,7 +1542,7 @@ table {
 .menu > ul > li {
   display: inline-block;
   position: relative;
-  margin-right: 30px;
+  margin-right: 20px;
   border: 1px solid transparent;
 }
 
@@ -1591,7 +1604,6 @@ table {
 }
 
 .slider {
-  padding-top: 50px;
   width: 100%;
   max-width: 1220px;
   min-width: 600px;
@@ -1605,6 +1617,7 @@ table {
 .slider .slide img {
   margin: 0 auto;
   width: 100%;
+  height: 100%;
 }
 
 .catalog {
@@ -1621,30 +1634,131 @@ table {
   flex-wrap: wrap;
   padding-top: 30px;
   padding-bottom: 20px;
-  width: 100%;
+  width: 80%;
   max-width: 1920px;
-  min-width: 800px;
+  min-width: 950px;
   margin: 0 auto;
+  border-bottom: 1px solid lightgray;
 }
 
+.catalog-name {
+  font-size: 30px;
+  line-height: 45px;
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 400;
+  display: table;
+  margin: 20px auto 0 auto;
+  transition: .3s;
+  &:hover {
+    text-decoration: none;
+    color: black;
+    transform: scale(1.02);
+  }
+}
+.about_us {
+  text-align: center;
+  min-width: 950px;
+  max-width: 1920px;
+  padding: 40px;
+  margin: 0 auto;
+  h2 {
+    font-size: 30px;
+    line-height: 45px;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 23px;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
+}
+.payment {
+  text-align: center;
+  min-width: 950px;
+  max-width: 1920px;
+  padding: 40px;
+  margin: 0 auto;
+  h2 {
+    font-size: 30px;
+    line-height: 45px;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 23px;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
+}
+.exchange {
+  text-align: center;
+  min-width: 950px;
+  max-width: 1920px;
+  padding: 40px;
+  margin: 0 auto;
+  h2 {
+    font-size: 30px;
+    line-height: 45px;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 23px;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
+}
 .women_underwear {
-  width: 237px;
+  width: 230px;
+  margin-right: 3px;
   border: 2px solid transparent;
   -webkit-transition: .9s;
   -o-transition: .9s;
   transition: .9s;
-  height: 581px;
+  height: 590px;
   overflow: hidden;
   margin-bottom: 10px;
+  text-align: center;
 }
-
-.women_men_underwear{
-  height: 230px;
+.women_t_shirts {
+  width: 230px;
+  margin-right: 3px;
   border: 2px solid transparent;
+  -webkit-transition: .9s;
+  -o-transition: .9s;
+  transition: .9s;
+  height: 485px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-women_t_shirts{
-  height: 475px;
+.men_underwear{
+  width: 230px;
+  margin-right: 3px;
+  border: 2px solid transparent;
+  -webkit-transition: .9s;
+  -o-transition: .9s;
+  transition: .9s;
+  height: 485px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-align: center;
+  height: 265px;
 }
 
 .catalog > div:hover {
@@ -1673,7 +1787,7 @@ women_t_shirts{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 18px;
-  padding: 10px 0 15px 15px;
+  padding: 15px 0 15px 15px;
   opacity: .9;
   -webkit-transition: .2s;
   -o-transition: .2s;
@@ -1777,4 +1891,53 @@ footer .contacts img {
 
 footer .contacts a {
   padding: 10px;
+}
+#top_nav {
+  top: 77px;
+  position: fixed;
+  z-index: 998;
+}
+
+#wrapper {
+  border: 5px solid rgba(255,255,255,0.6);
+  padding: 10px;  width:90%;  margin:60px auto;
+}
+.catalog div {
+  text-align:center;
+  font-size:20px;
+  margin:10px auto
+}
+#page-navi {
+  display: flex;
+  justify-content: center;
+  margin:40px auto;
+  margin-bottom:10px;
+  padding: 0px;
+  overflow: hidden;
+}
+#page-navi li {
+  list-style: none;
+  display: inline;
+}
+#page-navi li a {
+  font-family: arial;
+  display: block;
+  padding: 8px 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  background: #fff;
+  -webkit-transition: background 200ms linear;
+  transition: background 200ms linear;
+  border-radius: 3px;
+  color:#000;
+}
+#page-navi li:last-child a {
+  margin-right: 0px;
+}
+#page-navi li a.current,
+#page-navi li a.disable,
+#page-navi li a:hover {
+  background: tomato;
+  color: #fff;
 }

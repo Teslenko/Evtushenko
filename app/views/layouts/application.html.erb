@@ -1,42 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--<title>TimeOfRecruiting</title>-->
-    <title>Ievtushenko Production</title>
-    <%= csrf_meta_tags %>
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= favicon_link_tag 'Logo_I_ico.ico' %> <!--тут лежить логотип для страницы для вкладки-->
+<head>
+  <!--<title>TimeOfRecruiting</title>-->
+  <title>Ievtushenko Production</title>
+  <%= csrf_meta_tags %>
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <%= favicon_link_tag 'Logo_I_ico.ico' %> <!--тут лежить логотип для страницы для вкладки-->
 
-  </head>
+</head>
   <!--##############################---Search--#############################################-->
-
   <body>
-  <br><br><br><br><br><br><br>
-  <br>
-  <header class="navbar navbar-fixed-top navbar-inverse">
-
-    <div class="container main">
-      <div class="row">
-        <div class="col-md-12">
-          <% flash.each do |name, message|%>
-            <div class="alert"<%= bootstrap_class_for(name)%>>
-              <button class="close" data-dismiss="alert">&times;</button>
-              <% message %>
-            </div>
-          <% end %>
-        </div>
-      </div>
+  <header>
+    <div class="header-top">
+      <%= link_to(image_tag("Logo_I.png", size: "75x75",
+                            :alt => "rss feed", id:'ievtushenko_logo'), root_path) %><!--тут ссылка на картинку-->
+      <p style="line-height: 25px; font-size: 25px; margin:auto">Оптовый и розничный магазин TUW нижнего белья для всей семьи.</p>
     </div>
-
-    <br>
-
-    <%= render 'layouts/header' %>
-    <br><br><br><br>
-    <div class="menu">
-
-      <!--<h1>Евтушенко Продукция</h1>--><br>
+    <div class="menu" id="top_nav">
       <ul>
         <li><%= link_to "Главная",    home_path %></li>
         <li><%= link_to "О НАС",    about_path %></li>
@@ -44,9 +27,9 @@
         <li>
           <a href="#">Женское</a>
           <ul class="submenu">
-            <li><%= link_to "Пижамы",    women_path %></li>
             <li><%= link_to "Майки",    women_t_shirts_path %></li>
-            <li><%= link_to "Женское Белье",    womens_underwear_path %></li>
+            <li><%= link_to "Пижамы",    women_path %></li>
+            <li><%= link_to "Трусики",    womens_underwear_path %></li>
           </ul>
         </li>
         <li>
@@ -54,20 +37,19 @@
           <ul class="submenu">
             <li><%= link_to "Как Купить?",    howtobuy_path %></li>
             <li><%= link_to "Вопросы и Ответы",    help_path %></li>
-            <li><%= link_to "О нашей продукции",    material_path %></li>
           </ul>
         </li>
         <li><%= link_to "Оплата и Доставка",    shipping_payment_path %>
-          <ul class="submenu">
-            <li><%= link_to "Условия Обмена",    termsofexchange_path %></li>
-          </ul>
         </li>
         <li><%= link_to "Контакты",    contact_path %></li>
       </ul>
     </div>
   </header>
-
     <%= yield %>
   <%#= render 'layouts/footer' %>
   </body>
+  <script src="assets/slick.min.js" type="text/javascript"></script>
+  <script src="assets/jquery.fancybox.js" type="text/javascript"></script>
+  <script src="assets/pagination.js" type="text/javascript"></script>
+  <script src="assets/script.js" type="text/javascript"></script>
 </html>

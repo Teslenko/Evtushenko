@@ -53,19 +53,12 @@ Rails.application.configure do
   config.assets.digest = true
 
   config.action_mailer.smtp_settings = {
-      address: "smtp.gmail.com",
-      port: 587,
-      domain: "gmail.com",
-      authentication: "plain",
-      enable_starttls_auto: true,
-
-      user_name: "teslnorsedigital@gmail.com",
-      password: "quit1790"
+     
 
       #   user_name: ENV["GMAIL_USERNAME"],
       #   password: ENV["GMAIL_PASSWORD"]
   }
   config.serve_static_assets = true
   config.assets.compile = true
-
+  config.action_controller.include_all_helpers = false
 end
