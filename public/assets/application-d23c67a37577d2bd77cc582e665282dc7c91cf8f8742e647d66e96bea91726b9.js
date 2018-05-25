@@ -16220,10 +16220,6 @@ var EasyAutocomplete = (function(scope) {
 
 
 }).call(this);
-(function() {
-
-
-}).call(this);
 // ==================================================
 // fancyBox v3.3.5
 //
@@ -21362,14 +21358,6 @@ var EasyAutocomplete = (function(scope) {
         }
     });
 })(document, window.jQuery || jQuery);
-(function() {
-
-
-}).call(this);
-(function() {
-
-
-}).call(this);
 (function() {
 
 

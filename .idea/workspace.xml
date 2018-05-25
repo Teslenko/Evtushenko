@@ -5,51 +5,134 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af49cae3-a38e-4388-9cda-3dfad4e69268" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Women_underwear_11259_S_M_L_XL_40grn.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/candidates.coffee" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/parser.coffee" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/persons.coffee" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/candidates_controller.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/candidates_helper.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/parser_helper.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/persons_helper.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/models/candidate.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/Selenium/Selenium_Parser.html.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/candidates/_candidate.json.jbuilder" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/candidates/_form.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/candidates/autocomplete.json.jbuilder" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/candidates/edit.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/candidates/index.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/candidates/index.json.jbuilder" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/candidates/new.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/candidates/search.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/candidates/search.json.jbuilder" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/candidates/show.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/candidates/show.json.jbuilder" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_shim.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/persons/profile.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/about.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/about.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/contact.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/contact.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/help.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/help.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/howtobuy.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/howtobuy.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/shipping_payment.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/shipping_payment.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/women_t_shirts.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/women_t_shirts.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/womens_underwear.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/womens_underwear.html.erb" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/config/locales/devise.en.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/422.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/.sprockets-manifest-eccbbfda0ad785687a06760034cea02e.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/Logo_I-120ab621a5be2f4cf43a7503b1f7b41986d4ed035be77e560bc3b7514a12ce05.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/Logo_I_ico-f3f99f4a5238794b95e1ddfd0b261bb6e46fcdbcb8f809adbc43291680b20dd4.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/Logo_I_ico-f3f99f4a5238794b95e1ddfd0b261bb6e46fcdbcb8f809adbc43291680b20dd4.ico.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/TimeOfRecruiting - Shortcut-f5422441082c70ce139c62686f3c96aa0d1d6ea0706ecea30a770da158da028a.lnk" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/ajax-loader-e7b44c86b050fca766a96ddac2d0932af0126da6f2305280342d909168dcce6b.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/application-27e55539d67bcc2ef8441052f9c6aa94f11c00d85020cd55e39aae5c35460b33.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/application-27e55539d67bcc2ef8441052f9c6aa94f11c00d85020cd55e39aae5c35460b33.css.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/application-d992bf6572cdeaa101e6f4c6b699c075826b77200886abcf9918802ea927622d.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/application-d992bf6572cdeaa101e6f4c6b699c075826b77200886abcf9918802ea927622d.js.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/facebook-31978097925e20bba409ff98fdeedffeccbc1464ca09a299877922bed67eda95.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/slick-06d80cf01250132fd1068701108453feee68854b750d22c344ffc0de395e1dcb.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/slick-06d80cf01250132fd1068701108453feee68854b750d22c344ffc0de395e1dcb.eot.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/slick-12459f221a0b787bf1eaebf2e4c48fca2bd9f8493f71256c3043e7a0c7e932f6.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/slick-12459f221a0b787bf1eaebf2e4c48fca2bd9f8493f71256c3043e7a0c7e932f6.svg.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/slick-26726bac4060abb1226e6ceebc1336e84930fe7a7af1b3895a109d067f5b5dcc.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/slick-37bc99cfdbbc046193a26396787374d00e7b10d3a758a36045c07bd8886360d2.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/slick-37bc99cfdbbc046193a26396787374d00e7b10d3a758a36045c07bd8886360d2.ttf.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/instagram-ca0b54ebba79eb33296463d77b56eb4519df19edccc34560365e94db1ea88bc5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_flat_0_aaaaaa_40x100-ae65a7ae22c4c23115948fdeb5c05c9137dbd13ca2d426b3c4c3c4183451e410.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_444444_256x240-31d988765b4e6f56553c29588c500381dc3e6f0aa2980c8212202e5644aefd5d.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_555555_256x240-32175261daee76c82bb0edf0eea16a56421866fbc31e94f3c1d570aa114502f5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_777620_256x240-0b020fc6e696d88d296e7bb1f61f1eb2ad827848e2c7382a4c3e0999e702dd9b.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_777777_256x240-faf32007ae120c302213557626e660dd10e711c5dd4f1113d35f26dc05b78d2f.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_cc0000_256x240-40985a64b4d5dd213fba27fcd862a1bd1b337a97674f6ff0b9ec20abcee4bc69.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_ffffff_256x240-350df1b7131037de20e83c5c0f3a41a770d2ac48b5762ea772b3f4a8a7b9d47a.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/know_your_third-party-f78675c3a7ba682a4b999acdebc59e185d21bf40195bac48b14c57c161585423.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/assets/script.js-d9f83a22cdce362acaa6042b3ef454dc5e725bf97db285408fe36995ae5ae101.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/avatar/26171297_1049759788499494_1384754055552791179_o2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/avatar/RAV.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/avatar/thumb_26171297_1049759788499494_1384754055552791179_o2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/avatar/thumb_RAV.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/1/0-02-04-1d3eacc63c6c91e78a87b0fded95a69a44567383fcdcfee9b42cbc71f65ecec8_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/1/0-02-04-2023470fcf707de2a612de67742b576fb16923241acc7b729bf4f14b652fa62c_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/1/0-02-04-d5ce745f42a873e70c429357366c8cce296e546f18e3b1a1765f3e6b91729a60_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/1/images.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/1/thumb_0-02-04-1d3eacc63c6c91e78a87b0fded95a69a44567383fcdcfee9b42cbc71f65ecec8_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/1/thumb_0-02-04-2023470fcf707de2a612de67742b576fb16923241acc7b729bf4f14b652fa62c_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/1/thumb_0-02-04-d5ce745f42a873e70c429357366c8cce296e546f18e3b1a1765f3e6b91729a60_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/1/thumb_images.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/2/0-02-04-1d3eacc63c6c91e78a87b0fded95a69a44567383fcdcfee9b42cbc71f65ecec8_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/2/0-02-04-5a9d3233660e02119d7a390830b3fd79a28389517ca56e585d87324de3a78a74_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/2/0-02-04-f92b96f0f5b348ea2c72df1f07807d4c445be076d2318fc59cd1c6f18c2882b1_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/2/0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/2/thumb_0-02-04-1d3eacc63c6c91e78a87b0fded95a69a44567383fcdcfee9b42cbc71f65ecec8_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/2/thumb_0-02-04-5a9d3233660e02119d7a390830b3fd79a28389517ca56e585d87324de3a78a74_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/2/thumb_0-02-04-f92b96f0f5b348ea2c72df1f07807d4c445be076d2318fc59cd1c6f18c2882b1_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/2/thumb_0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/3/0-02-04-33b7651551db9c14b4c843da6075eed16917ec0b405a364d7557b5e956caa599_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/3/0-02-04-7ea7ba55fa501e253e91062ffd0657d6eba8f37a14bde74df929a98b7c719deb_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/3/0-02-04-b57682bc0c9b0c5635d051194969ad72a8bf55ef8f8651bfeda5c088bf1e9568_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/3/0-02-04-b7da652fbed72a405e54c6c1af943d9af52a2c89ad658c8cb33f03dcae551d83_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/3/thumb_0-02-04-33b7651551db9c14b4c843da6075eed16917ec0b405a364d7557b5e956caa599_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/3/thumb_0-02-04-7ea7ba55fa501e253e91062ffd0657d6eba8f37a14bde74df929a98b7c719deb_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/3/thumb_0-02-04-b57682bc0c9b0c5635d051194969ad72a8bf55ef8f8651bfeda5c088bf1e9568_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/3/thumb_0-02-04-b7da652fbed72a405e54c6c1af943d9af52a2c89ad658c8cb33f03dcae551d83_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/4/0-02-04-081198b9aaad6adecba9cf391653141d3cc9389419a728cbfef7b254880b970a_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/4/0-02-04-40d814d85646ea53135f7e722e877b4a79d3be5dc72b6c714d26a8c7359e8499_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/4/P60912-065517.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/4/thumb_0-02-04-081198b9aaad6adecba9cf391653141d3cc9389419a728cbfef7b254880b970a_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/4/thumb_0-02-04-40d814d85646ea53135f7e722e877b4a79d3be5dc72b6c714d26a8c7359e8499_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/4/thumb_P60912-065517.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/5/0-02-04-40d814d85646ea53135f7e722e877b4a79d3be5dc72b6c714d26a8c7359e8499_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/candidate/image/5/thumb_0-02-04-40d814d85646ea53135f7e722e877b4a79d3be5dc72b6c714d26a8c7359e8499_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/image/0-02-05-d800fe4b104515fbdedda385a7007aa9315d974d7a12eb36859917ffca1252b2_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/image/thumb_0-02-05-d800fe4b104515fbdedda385a7007aa9315d974d7a12eb36859917ffca1252b2_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/product/image/11/UCRF.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/product/image/11/thumb_UCRF.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/product/image/12/thumb_x0U-giGMsDc.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/product/image/12/x0U-giGMsDc.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/product/image/13/___________________________________-________________-_Google_Chrome_2018-02-26_17.22.11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/product/image/13/thumb____________________________________-________________-_Google_Chrome_2018-02-26_17.22.11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/product/image/14/0-02-04-88d82b9c60983659f2b0606a065238f017acceac2fd7bdb3d3e7f3d4c3db0f58_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/product/image/14/thumb_0-02-04-88d82b9c60983659f2b0606a065238f017acceac2fd7bdb3d3e7f3d4c3db0f58_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1511884705-487-3978/0-02-04-081198b9aaad6adecba9cf391653141d3cc9389419a728cbfef7b254880b970a_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1512121268-2073-1790/0-02-04-081198b9aaad6adecba9cf391653141d3cc9389419a728cbfef7b254880b970a_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1512121268-2073-1790/thumb_0-02-04-081198b9aaad6adecba9cf391653141d3cc9389419a728cbfef7b254880b970a_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1512121290-2073-7290/0-02-04-081198b9aaad6adecba9cf391653141d3cc9389419a728cbfef7b254880b970a_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1512121290-2073-7290/thumb_0-02-04-081198b9aaad6adecba9cf391653141d3cc9389419a728cbfef7b254880b970a_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1512121369-2073-2669/0-02-04-88ab669433f35ec1ccba95fb5d2df5ed5698ec3e259f6bfbd796fcfe0e20fd45_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1512121369-2073-2669/thumb_0-02-04-88ab669433f35ec1ccba95fb5d2df5ed5698ec3e259f6bfbd796fcfe0e20fd45_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1513009670-13-6680/0-02-05-91eb3e83237aebefdd294bf1a47f772d4b26eff474062a2df3625b9b810ed318_full.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1513028756-13359-7394/0-02-04-5a9d3233660e02119d7a390830b3fd79a28389517ca56e585d87324de3a78a74_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1513029753-13359-6382/0-02-04-40d814d85646ea53135f7e722e877b4a79d3be5dc72b6c714d26a8c7359e8499_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1513031413-13414-1299/0-02-04-40d814d85646ea53135f7e722e877b4a79d3be5dc72b6c714d26a8c7359e8499_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1513031515-13414-0248/0-02-04-40d814d85646ea53135f7e722e877b4a79d3be5dc72b6c714d26a8c7359e8499_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1513032544-22-8941/0-02-04-40d814d85646ea53135f7e722e877b4a79d3be5dc72b6c714d26a8c7359e8499_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1524778588-19-1505/3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1524778588-19-1505/thumb_3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1524778602-19-8727/3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1524778602-19-8727/thumb_3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1524778738-19-5750/IMG_7005.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1524778738-19-5750/thumb_IMG_7005.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1524911929-18-6850/0-02-05-d800fe4b104515fbdedda385a7007aa9315d974d7a12eb36859917ffca1252b2_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1524911929-18-6850/thumb_0-02-05-d800fe4b104515fbdedda385a7007aa9315d974d7a12eb36859917ffca1252b2_full.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525207720-611-3408/IMG_1362.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525207720-611-3408/thumb_IMG_1362.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525207792-611-4874/IMG_1362.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525207792-611-4874/thumb_IMG_1362.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525207886-611-8620/IMG_1362.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525207886-611-8620/thumb_IMG_1362.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525208251-611-4822/IMG_1362.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525208251-611-4822/thumb_IMG_1362.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525208312-611-8574/IMG_1362.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525208312-611-8574/thumb_IMG_1362.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525299698-18-0531/__________.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525299698-18-0531/thumb___________.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525299806-18-9788/__________.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525299806-18-9788/thumb___________.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525299841-18-8513/__________.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525299841-18-8513/thumb___________.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525299911-18-3008/111113.pdf_-_Adobe_Reader_2018-05-03_01.24.49.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525299911-18-3008/thumb_111113.pdf_-_Adobe_Reader_2018-05-03_01.24.49.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525299948-18-6797/111113.pdf_-_Adobe_Reader_2018-05-03_01.24.49.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525299948-18-6797/thumb_111113.pdf_-_Adobe_Reader_2018-05-03_01.24.49.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525370099-17-0184/111113.pdf_-_Adobe_Reader_2018-05-03_01.24.49.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/tmp/1525370099-17-0184/thumb_111113.pdf_-_Adobe_Reader_2018-05-03_01.24.49.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/womanavtr/444-02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/womanavtr/RAV.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/womanavtr/thumb_444-02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/womanavtr/thumb_RAV.png" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -317,52 +400,7 @@
             <path>
               <item name="Evtushenko" type="b2602c69:ProjectViewProjectNode" />
               <item name="Evtushenko" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evtushenko" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evtushenko" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evtushenko" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evtushenko" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evtushenko" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evtushenko" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evtushenko" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evtushenko" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evtushenko" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evtushenko" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evtushenko" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evtushenko" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="static_pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evtushenko" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evtushenko" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -761,12 +799,12 @@
       <workItem from="1527192914520" duration="1211000" />
       <workItem from="1527263823347" duration="1050000" />
       <workItem from="1527275812903" duration="1775000" />
-      <workItem from="1527277620503" duration="999000" />
+      <workItem from="1527277620503" duration="1377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342456000" />
+    <option name="totallyTimeSpent" value="342834000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,9 +817,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3216971" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3216971" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.23523094" order="7" side_tool="true" content_ui="tabs" />

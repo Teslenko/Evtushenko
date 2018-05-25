@@ -9743,13 +9743,13 @@ body.compensate-for-scrollbar {
   border-radius: 0;
   cursor: pointer;
   display: inline-block;
-  height: 75px;
+  height: 44px;
   margin: 0;
   outline: none;
   padding: 10px;
   transition: color .2s;
   vertical-align: top;
-  width: 75px;
+  width: 44px;
 }
 
 /* line 510, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
@@ -9815,12 +9815,12 @@ body.compensate-for-scrollbar {
 /* Navigation arrows */
 /* line 563, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .fancybox-navigation .fancybox-button {
-  height: 60px;
+  height: 38px;
   opacity: 0;
   padding: 6px;
   position: absolute;
   top: 50%;
-  width: 60px;
+  width: 38px;
 }
 
 /* line 572, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
@@ -10857,25 +10857,40 @@ table {
   src: local("Open Sans Bold"), local("OpenSans-Bold"), url("https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhs.ttf") format("truetype");
 }
 /* line 1519, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+header {
+  min-width: 950px;
+  max-width: 1920px;
+  margin: 0 auto;
+  min-height: 30px;
+}
+
+/* line 1526, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+.header-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* line 1532, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .menu {
   width: 100%;
-  max-width: 2400px;
-  min-width: 800px;
+  max-width: 1920px;
+  min-width: 950px;
   background-color: #cae458;
   margin: 0 auto;
   min-height: 60px;
   text-align: center;
 }
 
-/* line 1529, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1542, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .menu > ul > li {
   display: inline-block;
   position: relative;
-  margin-right: 30px;
+  margin-right: 20px;
   border: 1px solid transparent;
 }
 
-/* line 1536, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1549, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .menu > ul > li a {
   color: #333;
   font-family: 'Open Sans', sans-serif;
@@ -10886,12 +10901,12 @@ table {
   padding: 10px;
 }
 
-/* line 1546, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1559, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .menu > ul > li a img {
   width: 14px;
 }
 
-/* line 1550, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1563, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .menu > ul > li .submenu {
   z-index: 2;
   text-align: left;
@@ -10906,62 +10921,62 @@ table {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
 
-/* line 1564, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1577, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .menu > ul > li .submenu li {
   display: block;
   padding: 10px 0;
   margin-right: 0;
 }
 
-/* line 1570, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1583, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .menu > ul > li .submenu li a {
   line-height: 18px;
   font-size: 18px;
 }
 
-/* line 1575, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1588, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .menu > ul > li .submenu li a:hover {
   color: #888888;
 }
 
-/* line 1579, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1592, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .menu > ul > li:hover .submenu {
   display: block;
 }
 
-/* line 1583, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1596, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .menu > ul > li:hover {
   border: 1px solid #dddddd;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
 
-/* line 1589, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1602, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .menu > ul > li:hover > a {
   color: #888888;
 }
 
-/* line 1593, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1606, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .slider {
-  padding-top: 50px;
   width: 100%;
   max-width: 1220px;
   min-width: 600px;
   margin: 0 auto;
 }
 
-/* line 1601, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1613, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .slider .slide {
   width: 100%;
 }
 
-/* line 1605, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1617, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .slider .slide img {
   margin: 0 auto;
   width: 100%;
+  height: 100%;
 }
 
-/* line 1610, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1623, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .catalog {
   display: -webkit-box;
   display: -webkit-flex;
@@ -10976,53 +10991,170 @@ table {
   flex-wrap: wrap;
   padding-top: 30px;
   padding-bottom: 20px;
-  width: 100%;
+  width: 80%;
   max-width: 1920px;
-  min-width: 800px;
+  min-width: 950px;
   margin: 0 auto;
+  border-bottom: 1px solid lightgray;
 }
 
-/* line 1630, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1644, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+.catalog-name {
+  font-size: 30px;
+  line-height: 45px;
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 400;
+  display: table;
+  margin: 20px auto 0 auto;
+  transition: .3s;
+}
+/* line 1653, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+.catalog-name:hover {
+  text-decoration: none;
+  color: black;
+  transform: scale(1.02);
+}
+
+/* line 1659, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+.about_us {
+  text-align: center;
+  min-width: 950px;
+  max-width: 1920px;
+  padding: 40px;
+  margin: 0 auto;
+}
+/* line 1665, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+.about_us h2 {
+  font-size: 30px;
+  line-height: 45px;
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+/* line 1673, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+.about_us p {
+  font-size: 18px;
+  line-height: 23px;
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+/* line 1681, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+.payment {
+  text-align: center;
+  min-width: 950px;
+  max-width: 1920px;
+  padding: 40px;
+  margin: 0 auto;
+}
+/* line 1687, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+.payment h2 {
+  font-size: 30px;
+  line-height: 45px;
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+/* line 1695, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+.payment p {
+  font-size: 18px;
+  line-height: 23px;
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+/* line 1703, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+.exchange {
+  text-align: center;
+  min-width: 950px;
+  max-width: 1920px;
+  padding: 40px;
+  margin: 0 auto;
+}
+/* line 1709, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+.exchange h2 {
+  font-size: 30px;
+  line-height: 45px;
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+/* line 1717, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+.exchange p {
+  font-size: 18px;
+  line-height: 23px;
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+/* line 1725, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .women_underwear {
-  width: 237px;
+  width: 230px;
+  margin-right: 3px;
   border: 2px solid transparent;
   -webkit-transition: .9s;
   -o-transition: .9s;
   transition: .9s;
-  height: 581px;
+  height: 590px;
   overflow: hidden;
   margin-bottom: 10px;
+  text-align: center;
 }
 
-/* line 1641, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
-.women_men_underwear {
-  height: 230px;
+/* line 1737, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+.women_t_shirts {
+  width: 230px;
+  margin-right: 3px;
   border: 2px solid transparent;
+  -webkit-transition: .9s;
+  -o-transition: .9s;
+  transition: .9s;
+  height: 485px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-/* line 1646, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
-women_t_shirts {
-  height: 475px;
+/* line 1750, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+.men_underwear {
+  width: 230px;
+  margin-right: 3px;
+  border: 2px solid transparent;
+  -webkit-transition: .9s;
+  -o-transition: .9s;
+  transition: .9s;
+  height: 485px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-align: center;
+  height: 265px;
 }
 
-/* line 1650, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1764, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .catalog > div:hover {
   border: 2px solid lightgray;
 }
 
-/* line 1654, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1768, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .catalog > div:hover img {
   -webkit-transform: scale(1.09);
   -ms-transform: scale(1.09);
   transform: scale(1.09);
 }
 
-/* line 1660, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1774, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .catalog > div:hover h3 {
   font-weight: 700;
 }
 
-/* line 1664, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1778, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .catalog img {
   width: 230px;
   padding: 10px;
@@ -11031,26 +11163,26 @@ women_t_shirts {
   transition: .4s;
 }
 
-/* line 1672, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1786, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .catalog h3 {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 18px;
-  padding: 10px 0 15px 15px;
+  padding: 15px 0 15px 15px;
   opacity: .9;
   -webkit-transition: .2s;
   -o-transition: .2s;
   transition: .2s;
 }
 
-/* line 1683, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1797, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .catalog a {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
 
-/* line 1689, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1803, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .contactspage {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11063,17 +11195,17 @@ women_t_shirts {
   min-width: 800px;
 }
 
-/* line 1701, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1815, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .contactspage img {
   width: 30px;
 }
 
-/* line 1705, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1819, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .contactspage a {
   padding: 10px;
 }
 
-/* line 1709, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1823, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .contactspage h3 {
   padding: 20px 0;
   font-family: 'Open Sans', sans-serif;
@@ -11081,7 +11213,7 @@ women_t_shirts {
   font-weight: 700;
 }
 
-/* line 1716, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1830, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 .contactspage p {
   padding: 5px 0;
   font-family: 'Open Sans', sans-serif;
@@ -11090,7 +11222,7 @@ women_t_shirts {
   line-height: 20px;
 }
 
-/* line 1724, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1838, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 #googlemaps {
   height: 430px;
   width: 100%;
@@ -11098,7 +11230,7 @@ women_t_shirts {
   margin: 0 auto;
 }
 
-/* line 1733, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1847, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 footer {
   margin-top: 30px;
   padding-bottom: 20px;
@@ -11118,13 +11250,13 @@ footer {
   justify-content: space-between;
 }
 
-/* line 1752, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1866, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 footer > div {
   width: 32%;
   text-align: center;
 }
 
-/* line 1757, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1871, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 footer > div h3 {
   padding: 20px 0;
   font-family: 'Open Sans', sans-serif;
@@ -11133,7 +11265,7 @@ footer > div h3 {
   font-weight: 700;
 }
 
-/* line 1765, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1879, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 footer > div p {
   padding: 5px 0;
   font-family: 'Open Sans', sans-serif;
@@ -11143,18 +11275,84 @@ footer > div p {
   line-height: 20px;
 }
 
-/* line 1774, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1888, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 footer .contacts img {
   width: 30px;
 }
 
-/* line 1778, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+/* line 1892, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
 footer .contacts a {
   padding: 10px;
 }
+
+/* line 1895, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+#top_nav {
+  top: 77px;
+  position: fixed;
+  z-index: 998;
+}
+
+/* line 1901, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+#wrapper {
+  border: 5px solid rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  width: 90%;
+  margin: 60px auto;
+}
+
+/* line 1905, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+.catalog div {
+  text-align: center;
+  font-size: 20px;
+  margin: 10px auto;
+}
+
+/* line 1910, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+#page-navi {
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+  margin-bottom: 10px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+/* line 1918, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+#page-navi li {
+  list-style: none;
+  display: inline;
+}
+
+/* line 1922, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+#page-navi li a {
+  font-family: arial;
+  display: block;
+  padding: 8px 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  background: #fff;
+  -webkit-transition: background 200ms linear;
+  transition: background 200ms linear;
+  border-radius: 3px;
+  color: #000;
+}
+
+/* line 1935, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+#page-navi li:last-child a {
+  margin-right: 0px;
+}
+
+/* line 1938, /mnt/c/Evtushenko/app/assets/stylesheets/custom.css.scss */
+#page-navi li a.current,
+#page-navi li a.disable,
+#page-navi li a:hover {
+  background: tomato;
+  color: #fff;
+}
 /* line 1, /mnt/c/Evtushenko/app/assets/stylesheets/scaffolds.scss */
 body {
-  background-color: #fff;
+  background-color: #81c1f7;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
@@ -11181,7 +11379,7 @@ a {
 }
 /* line 26, /mnt/c/Evtushenko/app/assets/stylesheets/scaffolds.scss */
 a:visited {
-  color: #171add;
+  color: #86b9dd;
 }
 /* line 30, /mnt/c/Evtushenko/app/assets/stylesheets/scaffolds.scss */
 a:hover {
