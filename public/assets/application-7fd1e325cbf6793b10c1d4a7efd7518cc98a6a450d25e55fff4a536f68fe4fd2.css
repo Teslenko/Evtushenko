@@ -10878,7 +10878,7 @@ header {
   min-width: 950px;
   background-color: black;
   margin: 0 auto;
-  min-height: 60px;
+  min-height: 58px;
   text-align: center;
 }
 
@@ -11352,7 +11352,7 @@ footer .contacts a {
 }
 /* line 1, /mnt/c/Evtushenko/app/assets/stylesheets/scaffolds.scss */
 body {
-  background-color: white;
+  background-color: #0f95d23b;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
