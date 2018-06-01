@@ -1,5 +1,5 @@
 body {
-  background-color: #0f95d23b;
+  background-color: #007dff17;
   color: #333;
   //margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
@@ -22,13 +22,14 @@ pre {
 
 a {
   color: #000;
+  padding-left: 20px;
 
   &:visited {
-    color: #0a395a;
+    color: #000;//#ef5f96;
   }
 
   &:hover {
-    color: #fff;
+    color: #ef5f96;
     //background-color: #000;
   }
 }
