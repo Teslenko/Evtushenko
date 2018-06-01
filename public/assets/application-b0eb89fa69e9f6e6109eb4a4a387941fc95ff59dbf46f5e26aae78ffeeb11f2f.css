@@ -10876,7 +10876,7 @@ header {
   width: 100%;
   max-width: 1920px;
   min-width: 950px;
-  background-color: black;
+  background-color: #222;
   margin: 0 auto;
   min-height: 58px;
   text-align: center;

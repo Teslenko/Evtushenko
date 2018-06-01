@@ -58,7 +58,7 @@ gem "watir", "~> 6.10"
 
 gem 'delayed_job_active_record'
 
-
+gem "rack-timeout", "~> 0.4"
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
